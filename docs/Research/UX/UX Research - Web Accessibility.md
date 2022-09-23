@@ -3,8 +3,6 @@ share: true
 category: Research/UX
 ---
 
-# Resources
-
 http://a11ysyllabus.site/what-is-digital-accessibility (Syllabus produced during a Processing fellowship)
 
 https://abookapart.com/products/accessibility-for-everyone
