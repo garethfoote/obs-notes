@@ -5,38 +5,35 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="ascascasc
-acsscascasc" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Obsidian/test%20share/" rel="canonical"/>
-<link href="../../assets/meta/favicons.png" rel="icon"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/" rel="canonical"/>
+<link href="../../../assets/meta/favicons.png" rel="icon"/>
 <meta content="mkdocs-1.3.1, mkdocs-material-8.5.3" name="generator"/>
-<title>Test share - obs_notes</title>
-<link href="../../assets/stylesheets/main.7a952b86.min.css" rel="stylesheet"/>
-<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<title>UX Research Tree view design pattern - obs_notes</title>
+<link href="../../../assets/stylesheets/main.7a952b86.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,700,700i%7CUbuntu+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Ubuntu";--md-code-font:"Ubuntu Mono"}</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="../../assets/css/template/blog.css" rel="stylesheet"/>
-<link href="../../assets/css/template/grid.css" rel="stylesheet"/>
-<link href="../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
-<link href="../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
-<link href="../../assets/css/template/utils.css" rel="stylesheet"/>
-<link href="../../assets/css/admonition.css" rel="stylesheet"/>
-<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../assets/css/customization.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../assets/css/template/blog.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/grid.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/utils.css" rel="stylesheet"/>
+<link href="../../../assets/css/admonition.css" rel="stylesheet"/>
+<link href="../../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../../assets/css/customization.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="Test share" property="og:title"/>
-<meta content="Test share" name="twitter:title"/>
-<meta content="ascascasc
-acsscascasc" name="description"/>
-<meta content="ascascasc
-acsscascasc" name="twitter:description"/>
+<meta content="UX Research   Tree view design pattern" property="og:title"/>
+<meta content="UX Research   Tree view design pattern" name="twitter:title"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -47,13 +44,16 @@ acsscascasc" name="twitter:description"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#other-links">
+          Skip to content
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="obs_notes" class="md-header__button md-logo" data-md-component="logo" href="../.." title="obs_notes">
-<img alt="logo" src="../../assets/meta/favicons.png"/>
+<a aria-label="obs_notes" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="obs_notes">
+<img alt="logo" src="../../../assets/meta/favicons.png"/>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -68,7 +68,7 @@ acsscascasc" name="twitter:description"/>
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Test share
+              UX Research   Tree view design pattern
             
           </span>
 </div>
@@ -120,22 +120,22 @@ acsscascasc" name="twitter:description"/>
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../Obsidian%20Publish%20alternative/">
+<a class="md-tabs__link" href="../../../Obsidian%20Publish%20alternative/">
       Obsidian Publish alternative
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../Web%20Accessibility/">
+<a class="md-tabs__link" href="../../../Web%20Accessibility/">
       Resources
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="./">
+<a class="md-tabs__link" href="../../../Obsidian/test%20share/">
         Obsidian
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/">
+<a class="md-tabs__link md-tabs__link--active" href="./">
         Research
       </a>
 </li>
@@ -151,24 +151,24 @@ acsscascasc" name="twitter:description"/>
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="obs_notes" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="obs_notes">
-<img alt="logo" src="../../assets/meta/favicons.png"/>
+<a aria-label="obs_notes" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="obs_notes">
+<img alt="logo" src="../../../assets/meta/favicons.png"/>
 </a>
     obs_notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../Obsidian%20Publish%20alternative/">
+<a class="md-nav__link" href="../../../Obsidian%20Publish%20alternative/">
         Obsidian Publish alternative
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../Web%20Accessibility/">
+<a class="md-nav__link" href="../../../Web%20Accessibility/">
         Resources
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           Obsidian
           <span class="md-nav__icon md-icon"></span>
@@ -179,17 +179,16 @@ acsscascasc" name="twitter:description"/>
           Obsidian
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Obsidian/test%20share/">
         Test share
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4">
           Research
           <span class="md-nav__icon md-icon"></span>
@@ -200,8 +199,8 @@ acsscascasc" name="twitter:description"/>
           Research
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_4_1" id="__nav_4_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" id="__nav_4_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_1">
           UX
           <span class="md-nav__icon md-icon"></span>
@@ -212,10 +211,28 @@ acsscascasc" name="twitter:description"/>
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          UX Research   Tree view design pattern
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         UX Research   Tree view design pattern
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-links">
+    Other Links
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -232,15 +249,49 @@ acsscascasc" name="twitter:description"/>
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other-links">
+    Other Links
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Test share</h1>
-<p>ascascasc<br/>
-acsscascasc</p>
+<h1>UX Research   Tree view design pattern</h1>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role">MDN Web Docs - ARIA: tree role</a> </p>
+<blockquote>
+<p>An example of a <code>tree</code> is a file system selection user interface: a tree view displaying folders and files. Folder items can be expanded to reveal the contents of the folder — which may be files, folders, or both — and collapsed, hiding its contents.</p>
+</blockquote>
+<p><a href="https://dequeuniversity.com/library/aria/tree-view">Deque University - Tree View example</a></p>
+<blockquote>
+<p>Tree view is a hierarchical structure with parent and child nodes that can expand and collapse. Tree views on the web are not common, but they do exist, often to represent a file system or other similar structure of folders and files.</p>
+</blockquote>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/patterns/treeview/">ARIA Authoring Practices Guide (APG) - Tree View</a><br/>
+<a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html">ARIA Authoring Practices Guide (APG) - File Directory Treeview Example</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each of the above has a CodePen example</p>
+</div>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-navigation">ARIA Authoring Practices Guide (APG) - Navigation Treeview example</a><br/>
+Often treeviews are used for complex nested navigation but this is not recommended</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>The above use of a treeview is an anti-pattern. Not the best accessibilty pattern to use. <br/>
+“A pattern more suited for typical site navigation with expandable groups of links is the <a href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/">disclosure pattern.</a>“</p>
+</div>
+<p><a href="https://www.patternfly.org/2021.16/components/tree-view/design-guidelines">PatternFly Design System (from Red Hat) - Design Guidelines for tree view</a></p>
+<h5 id="other-links">Other Links<a class="headerlink" href="#other-links" title="Permanent link">¶</a></h5>
+<p><a href="http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/">http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/</a> (2013)<br/>
+<a href="https://mdbootstrap.com/docs/standard/plugins/tree-view/">https://mdbootstrap.com/docs/standard/plugins/tree-view/</a> </p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -330,7 +381,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Resources" class="md-footer__link md-footer__link--prev" href="../../Web%20Accessibility/" rel="prev">
+<a aria-label="Previous: Test share" class="md-footer__link md-footer__link--prev" href="../../../Obsidian/test%20share/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -339,21 +390,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              Resources
+              Test share
             </div>
-</div>
-</a>
-<a aria-label="Next: UX Research   Tree view design pattern" class="md-footer__link md-footer__link--next" href="../../Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
-              UX Research   Tree view design pattern
-            </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
 </div>
 </a>
 </nav>
@@ -368,12 +406,12 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-<script src="../../assets/javascripts/bundle.37e9125f.min.js"></script>
-<script src="../../assets/js/mathjax.js"></script>
-<script src="../../assets/js/utils.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.37e9125f.min.js"></script>
+<script src="../../../assets/js/mathjax.js"></script>
+<script src="../../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="../../assets/js/tooltipster.bundle.js"></script>
+<script src="../../../assets/js/tooltipster.bundle.js"></script>
 </body>
 </html>
