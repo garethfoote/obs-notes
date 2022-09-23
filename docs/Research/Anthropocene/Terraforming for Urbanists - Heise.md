@@ -1,7 +1,13 @@
 ---
 share: true
 category: Research/Anthropocene
+tags:
+  - research_newmaterialism
+  - research_more-than-human
+  - research_urbanism
+  - project_cds2020
 ---
+
 
 #research/newmaterialism #research/more-than-human  #research/urbanism #project/cds2020
 
