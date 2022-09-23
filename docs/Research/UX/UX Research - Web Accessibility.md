@@ -1,5 +1,6 @@
 ---
 share: true
+category: Research/UX
 ---
 
 # Resources
@@ -36,7 +37,7 @@ https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text
 
 
 
-## ARIA
+# ARIA
 
 Don’t Use ARIA Menu Roles for Site Nav
 https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html
@@ -51,7 +52,7 @@ https://www.w3.org/WAI/GL/wiki/Using_ARIA_menus
 
 Navs are for site wide content, not single page.
 
-## Hiding content
+# Hiding content
 https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
 https://gomakethings.com/hidden-content-for-better-a11y/
 

@@ -1,6 +1,5 @@
 ---
 share: true
-category: "Obsidian"
 ---
 
 ascascasc
