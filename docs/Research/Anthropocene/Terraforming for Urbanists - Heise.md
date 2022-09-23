@@ -11,6 +11,8 @@ tags:
 
 #research/newmaterialism #research/more-than-human  #research/urbanism #project/cds2020
 
+[[heise-terraformingforurbanists2016.pdf]]
+
 ![[heise-terraformingforurbanists2016.pdf]]
 
 ### Anthropocene
