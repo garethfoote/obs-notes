@@ -13,4 +13,3 @@ mkdocs-simple-hooks==0.1.5
 mkdocs-callouts==1.7.0
 mkdocs-custom-tags-attributes==0.2.1
 mkdocs-meta-descriptions-plugin==2.1.0
-mdx_del_int==1.0
