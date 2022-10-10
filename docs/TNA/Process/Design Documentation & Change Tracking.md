@@ -13,8 +13,17 @@ Exploring options for documenting designs and tracking design changes.
 
 A lot of this is lifted from the [excellent article by Stefanie Walter](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/). 
 
+# Accessiblity Documentation
+What design, content or interaction elements are at risk of being lost or forgotten between ux, design and dev.
 
-# Documentation
+- HTML title of the page
+- Landmarks
+	- Example from [Figma Plugin for accessibility annotations](https://www.figma.com/community/file/984136149483735147)
+	- ![[Screenshot 2022-10-10 at 12.12.16.png]]- HTML headings in the page
+- Focus order at page level
+- 
+
+# General Documentation
 ## Component level documentation (GDS)
 
 Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:
