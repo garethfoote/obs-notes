@@ -44,7 +44,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#documentation">
+<a class="md-skip" href="#component-level-documentation-gds">
           Skip to content
         </a>
 </div>
@@ -337,14 +337,19 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
+<a class="md-nav__link" href="#component-level-documentation-gds">
+    Component level documentation (GDS)
   </a>
-<nav aria-label="Documentation" class="md-nav">
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+    Examples
+  </a>
+<nav aria-label="Examples" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#component-level">
-    Component level
+<a class="md-nav__link" href="#components-details">
+    Components details
   </a>
 </li>
 <li class="md-nav__item">
@@ -389,14 +394,19 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
+<a class="md-nav__link" href="#component-level-documentation-gds">
+    Component level documentation (GDS)
   </a>
-<nav aria-label="Documentation" class="md-nav">
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#examples">
+    Examples
+  </a>
+<nav aria-label="Examples" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#component-level">
-    Component level
+<a class="md-nav__link" href="#components-details">
+    Components details
   </a>
 </li>
 <li class="md-nav__item">
@@ -421,8 +431,14 @@
 <article class="md-content__inner md-typeset">
 <h1>Design Documentation &amp; Change Tracking</h1>
 <p>Exploring options for documenting designs and tracking design changes. </p>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">¶</a></h2>
-<h3 id="component-level">Component level<a class="headerlink" href="#component-level" title="Permanent link">¶</a></h3>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Currently we are missing error state content in a lot of places</li>
+<li>Differences between user flows and screen flows</li>
+</ul>
+<hr/>
+<p>A lot of this is lifted from the <a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">excellent article by Stefanie Walter</a>. </p>
+<h3 id="component-level-documentation-gds">Component level documentation (GDS)<a class="headerlink" href="#component-level-documentation-gds" title="Permanent link">¶</a></h3>
 <p>Thankfully the <a href="https://design-system.service.gov.uk/">Gov Design System</a> takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:</p>
 <ul>
 <li>State changes</li>
@@ -433,14 +449,21 @@
 </ul>
 </li>
 </ul>
-<h3 id="annotations">Annotations<a class="headerlink" href="#annotations" title="Permanent link">¶</a></h3>
-<p>Here are some <a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">examples From Karen Hawkins</a>.</p>
-<p><img alt="Accessibility Annotation Examples - Karen Hawkins" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c22d778024369.5c992c3799637.png"/><br/>
-R<small><a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">Accessibility Annotations from Karen Hawkings on Behance</a></small></p>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
+<h4 id="components-details">Components details<a class="headerlink" href="#components-details" title="Permanent link">¶</a></h4>
+<p>Including interactions &amp; keyboard nav</p>
+<p><img alt="" src="https://stephaniewalter.design/wp-content/uploads/2022/03/08-interactionflow-2.jpg"/></p>
+<p><small><a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">Stefanie Walter’s article and talk</a></small></p>
+<h4 id="annotations">Annotations<a class="headerlink" href="#annotations" title="Permanent link">¶</a></h4>
+<p>Detailed notes on accessibility. This example is from <a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">Karen Hawkins</a>.</p>
+<p><img alt="Accessibility Annotation Examples - Karen Hawkins" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c22d778024369.5c992c3799637.png"/></p>
+<p><small><a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">Accessibility Annotations from Karen Hawkings on Behance</a></small></p>
 <h2 id="reading">Reading<a class="headerlink" href="#reading" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">A Designer’s Guide to Documenting Accessibility &amp; User Interactions</a> </li>
 <li><a href="https://medium.com/designing-atlassian/how-to-jira-for-designers-e37c354aa078">How to Jira for designers</a></li>
+<li><a href="https://northell.design/blog/how-to-write-the-design-specifications-quick-guide">How to write design specifications</a></li>
+<li><a href="https://uxdesign.cc/using-jira-as-a-research-repository-pros-cons-and-how-to-eb112936c1e8">Using Jira as a research repo</a></li>
 </ul>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
