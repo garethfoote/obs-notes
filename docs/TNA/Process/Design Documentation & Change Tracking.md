@@ -18,9 +18,12 @@ Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes 
 - ~~Detailed design spec~ ~ 
 	- This should be readable from design files or coded prototype
 
-## Accessibility annotations
+## Annotations
+
+Here are some [examples From Karen Hawkins](https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20).
 
 ![Accessibility Annotation Examples - Karen Hawkins](https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c22d778024369.5c992c3799637.png)
+R<small>[Accessibility Annotations from Karen Hawkings on Behance](https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20)</small>
 
 # Reading 
 
