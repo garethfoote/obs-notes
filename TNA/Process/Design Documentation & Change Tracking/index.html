@@ -44,7 +44,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#component-level-documentation-gds">
+<a class="md-skip" href="#documentation">
           Skip to content
         </a>
 </div>
@@ -337,9 +337,23 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#documentation">
+    Documentation
+  </a>
+<nav aria-label="Documentation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
 <a class="md-nav__link" href="#component-level-documentation-gds">
     Component level documentation (GDS)
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-flows-and-screen-flows">
+    User flows and screen flows
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#examples">
@@ -394,9 +408,23 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#documentation">
+    Documentation
+  </a>
+<nav aria-label="Documentation" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
 <a class="md-nav__link" href="#component-level-documentation-gds">
     Component level documentation (GDS)
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#user-flows-and-screen-flows">
+    User flows and screen flows
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="#examples">
@@ -438,6 +466,7 @@
 </ul>
 <hr/>
 <p>A lot of this is lifted from the <a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">excellent article by Stefanie Walter</a>. </p>
+<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">¶</a></h2>
 <h3 id="component-level-documentation-gds">Component level documentation (GDS)<a class="headerlink" href="#component-level-documentation-gds" title="Permanent link">¶</a></h3>
 <p>Thankfully the <a href="https://design-system.service.gov.uk/">Gov Design System</a> takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:</p>
 <ul>
@@ -449,12 +478,23 @@
 </ul>
 </li>
 </ul>
-<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h3>
-<h4 id="components-details">Components details<a class="headerlink" href="#components-details" title="Permanent link">¶</a></h4>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>See <a href="./#examples" title="Examples">Examples</a> for how a dropdown component could be documented.</p>
+</div>
+<h3 id="user-flows-and-screen-flows">User flows and screen flows<a class="headerlink" href="#user-flows-and-screen-flows" title="Permanent link">¶</a></h3>
+<blockquote>
+<p><strong>User flows</strong> (on the left) are kind of “step by step” boxes and arrow graphs that document how someone accomplishes a task. They list <strong>pages</strong>, views, branchings, … They are usually built at the beginning of the project to help plan those pages and flows.</p>
+<p><strong>Screen flows</strong> (on the right) are kind of the same. But instead of boxes for pages, I put the real interface mockups. I build those at the end, once we went through usability testing, refinement and have mockups. Both help the dev team understand how the user will navigate across the whole interface.</p>
+</blockquote>
+<p><img alt="User vs Screen flows" src="https://stephaniewalter.design/wp-content/uploads/2022/03/20-userflow-2.jpg"/></p>
+<p>We have been discussing creating ‘Screen flows’ in order to help the dev team (and other team members) understand the flow between pages. Having a macro level mapping of this is also useful to have visibilty across pages for consistency.  </p>
+<h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h2>
+<h3 id="components-details">Components details<a class="headerlink" href="#components-details" title="Permanent link">¶</a></h3>
 <p>Including interactions &amp; keyboard nav</p>
 <p><img alt="" src="https://stephaniewalter.design/wp-content/uploads/2022/03/08-interactionflow-2.jpg"/></p>
 <p><small><a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">Stefanie Walter’s article and talk</a></small></p>
-<h4 id="annotations">Annotations<a class="headerlink" href="#annotations" title="Permanent link">¶</a></h4>
+<h3 id="annotations">Annotations<a class="headerlink" href="#annotations" title="Permanent link">¶</a></h3>
 <p>Detailed notes on accessibility. This example is from <a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">Karen Hawkins</a>.</p>
 <p><img alt="Accessibility Annotation Examples - Karen Hawkins" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c22d778024369.5c992c3799637.png"/></p>
 <p><small><a href="https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20">Accessibility Annotations from Karen Hawkings on Behance</a></small></p>
