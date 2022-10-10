@@ -1,23 +1,23 @@
-site_name: obs_notes
+site_name: Notes
 site_description: Obsidian Notes - Writing in public
 site_url: https://garethfoote.github.io/obs-notes
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
+    favicon: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
     custom_dir: overrides
     font:
-        text: Ubuntu
-        code: Ubuntu Mono
+        text: Roboto
+        code: Roboto Mono
     language: en
     palette:
 
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
