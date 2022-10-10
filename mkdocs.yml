@@ -4,7 +4,8 @@ site_url: https://garethfoote.github.io/obs-notes
 
 theme:
     name: 'material'
-    logo: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
+    logo: 
+        icon: fontawesome/solid/pen-clip
     favicon: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
     custom_dir: overrides
     font:
