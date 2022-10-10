@@ -42,6 +42,7 @@ theme:
         
 # Extensions
 markdown_extensions:
+  - del_ins
   - footnotes
   - nl2br
   - attr_list
