@@ -13,6 +13,8 @@ Exploring options for documenting designs and tracking design changes.
 
 A lot of this is lifted from the [excellent article by Stefanie Walter](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/). 
 
+
+# Documentation
 ## Component level documentation (GDS)
 
 Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:
@@ -22,17 +24,31 @@ Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes 
 - ~~Detailed design spec~ ~ 
 	- This should be readable from design files or coded prototype
 
-## Examples 
+> [!INFO]
+> See [[#Examples]] for how a dropdown component could be documented.
 
-### Components details
 
-Including interactions & keyboard nav
+## User flows and screen flows
+
+> **User flows** (on the left) are kind of “step by step” boxes and arrow graphs that document how someone accomplishes a task. They list **pages**, views, branchings, … They are usually built at the beginning of the project to help plan those pages and flows.
+
+> **Screen flows** (on the right) are kind of the same. But instead of boxes for pages, I put the real interface mockups. I build those at the end, once we went through usability testing, refinement and have mockups. Both help the dev team understand how the user will navigate across the whole interface.
+
+![User vs Screen flows](https://stephaniewalter.design/wp-content/uploads/2022/03/20-userflow-2.jpg)
+
+We have been discussing creating 'Screen flows' in order to help the dev team (and other team members) understand the flow between pages. Having a macro level mapping of this is also useful to have visibilty across pages for consistency.  
+
+# Examples 
+
+## Components details
+
+This example includes interactions & keyboard navigation. 
 
 ![](https://stephaniewalter.design/wp-content/uploads/2022/03/08-interactionflow-2.jpg)
 
 <small>[Stefanie Walter's article and talk](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/)</small>
 
-### Annotations
+## Annotations
 
 Detailed notes on accessibility. This example is from [Karen Hawkins](https://www.behance.net/gallery/78024369/Accessibility-Annotation-Examples%20).
 
