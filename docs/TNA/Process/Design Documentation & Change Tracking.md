@@ -5,23 +5,29 @@ category: TNA/Process
 
 Exploring options for documenting designs and tracking design changes. 
 
-**Notes:**
+**Notes and takeaways**
 - Currently we are missing error state content in a lot of places
-- Differences between user flows and screen flows
+- Some accessbility documentation also: focus order, landmarks, document announced content.
+- How do we make use of user flows and *screen flows*? 
 
 ---
 
 A lot of this is lifted from the [excellent article by Stefanie Walter](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/). 
 
-# Accessiblity Documentation
+# Accessibility Documentation
 What design, content or interaction elements are at risk of being lost or forgotten between ux, design and dev.
 
 - HTML title of the page
 - Landmarks
 	- Example from [Figma Plugin for accessibility annotations](https://www.figma.com/community/file/984136149483735147)
-	- ![[Screenshot 2022-10-10 at 12.12.16.png]]- HTML headings in the page
+	- ![[Screenshot 2022-10-10 at 12.12.16.png]]
+- HTML headings in the page
 - Focus order at page level
-- 
+	- Example from [Figma Plugin for accessibility annotations](https://www.figma.com/community/file/984136149483735147)
+	- ![[Screenshot 2022-10-10 at 12.12.28.png]]
+- Documenting Announced Content and Markup
+	- What should assisstive technology announce? 
+	- An example is the green tick being used in TDR metadata to indicate existing metadata
 
 # General Documentation
 ## Component level documentation (GDS)
