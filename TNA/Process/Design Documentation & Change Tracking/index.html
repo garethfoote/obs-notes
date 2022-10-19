@@ -8,7 +8,7 @@
 <meta content="Exploring options for documenting designs and tracking design changes." name="description"/>
 <link href="https://garethfoote.github.io/obs-notes/TNA/Process/Design%20Documentation%20%26%20Change%20Tracking/" rel="canonical"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
-<meta content="mkdocs-1.4.0, mkdocs-material-8.5.6" name="generator"/>
+<meta content="mkdocs-1.4.1, mkdocs-material-8.5.6" name="generator"/>
 <title>Design Documentation &amp; Change Tracking - Notes</title>
 <link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
@@ -44,7 +44,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#documentation">
+<a class="md-skip" href="#accessibility-documentation">
           Skip to content
         </a>
 </div>
@@ -309,14 +309,19 @@
         The National Archive - Personal notes about design work
       </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/">
+        Show &amp; Tell 71   Hierarchical Tree View
+      </a>
+</li>
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" id="__nav_3_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_2">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3">
           Process
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="Process" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_3_2">
+<label class="md-nav__title" for="__nav_3_3">
 <span class="md-nav__icon md-icon"></span>
           Process
         </label>
@@ -337,10 +342,15 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
+<a class="md-nav__link" href="#accessibility-documentation">
+    Accessibility Documentation
   </a>
-<nav aria-label="Documentation" class="md-nav">
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-documentation">
+    General Documentation
+  </a>
+<nav aria-label="General Documentation" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#component-level-documentation-gds">
@@ -408,10 +418,15 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#documentation">
-    Documentation
+<a class="md-nav__link" href="#accessibility-documentation">
+    Accessibility Documentation
   </a>
-<nav aria-label="Documentation" class="md-nav">
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#general-documentation">
+    General Documentation
+  </a>
+<nav aria-label="General Documentation" class="md-nav">
 <ul class="md-nav__list">
 <li class="md-nav__item">
 <a class="md-nav__link" href="#component-level-documentation-gds">
@@ -459,14 +474,36 @@
 <article class="md-content__inner md-typeset">
 <h1>Design Documentation &amp; Change Tracking</h1>
 <p>Exploring options for documenting designs and tracking design changes. </p>
-<p><strong>Notes:</strong></p>
+<p><strong>Notes and takeaways</strong></p>
 <ul>
 <li>Currently we are missing error state content in a lot of places</li>
-<li>Differences between user flows and screen flows</li>
+<li>Some accessbility documentation also: focus order, landmarks, document announced content.</li>
+<li>How do we make use of user flows and <em>screen flows</em>? </li>
 </ul>
 <hr/>
 <p>A lot of this is lifted from the <a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">excellent article by Stefanie Walter</a>. </p>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">¶</a></h2>
+<h2 id="accessibility-documentation">Accessibility Documentation<a class="headerlink" href="#accessibility-documentation" title="Permanent link">¶</a></h2>
+<p>What design, content or interaction elements are at risk of being lost or forgotten between ux, design and dev.</p>
+<ul>
+<li>HTML title of the page</li>
+<li>Landmarks<ul>
+<li>Example from <a href="https://www.figma.com/community/file/984136149483735147">Figma Plugin for accessibility annotations</a></li>
+<li><img alt="Screenshot 2022-10-10 at 12.12.16.png" src="../../../Screenshot%202022-10-10%20at%2012.12.16.png" title="Screenshot 2022-10-10 at 12.12.16.png"/></li>
+</ul>
+</li>
+<li>HTML headings in the page</li>
+<li>Focus order at page level<ul>
+<li>Example from <a href="https://www.figma.com/community/file/984136149483735147">Figma Plugin for accessibility annotations</a></li>
+<li><img alt="Screenshot 2022-10-10 at 12.12.28.png" src="../../../Screenshot%202022-10-10%20at%2012.12.28.png" title="Screenshot 2022-10-10 at 12.12.28.png"/></li>
+</ul>
+</li>
+<li>Documenting Announced Content and Markup<ul>
+<li>What should assisstive technology announce? </li>
+<li>An example is the green tick being used in TDR metadata to indicate existing metadata</li>
+</ul>
+</li>
+</ul>
+<h2 id="general-documentation">General Documentation<a class="headerlink" href="#general-documentation" title="Permanent link">¶</a></h2>
 <h3 id="component-level-documentation-gds">Component level documentation (GDS)<a class="headerlink" href="#component-level-documentation-gds" title="Permanent link">¶</a></h3>
 <p>Thankfully the <a href="https://design-system.service.gov.uk/">Gov Design System</a> takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:</p>
 <ul>
@@ -491,7 +528,7 @@
 <p>We have been discussing creating ‘Screen flows’ in order to help the dev team (and other team members) understand the flow between pages. Having a macro level mapping of this is also useful to have visibilty across pages for consistency.  </p>
 <h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">¶</a></h2>
 <h3 id="components-details">Components details<a class="headerlink" href="#components-details" title="Permanent link">¶</a></h3>
-<p>Including interactions &amp; keyboard nav</p>
+<p>This example includes interactions &amp; keyboard navigation. </p>
 <p><img alt="" src="https://stephaniewalter.design/wp-content/uploads/2022/03/08-interactionflow-2.jpg"/></p>
 <p><small><a href="https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/">Stefanie Walter’s article and talk</a></small></p>
 <h3 id="annotations">Annotations<a class="headerlink" href="#annotations" title="Permanent link">¶</a></h3>
@@ -514,7 +551,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 10, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 19, 2022</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -561,7 +598,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: The National Archive - Personal notes about design work" class="md-footer__link md-footer__link--prev" href="../../Home/" rel="prev">
+<a aria-label="Previous: Show &amp; Tell 71   Hierarchical Tree View" class="md-footer__link md-footer__link--prev" href="../../Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -570,7 +607,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              The National Archive - Personal notes about design work
+              Show &amp; Tell 71   Hierarchical Tree View
             </div>
 </div>
 </a>

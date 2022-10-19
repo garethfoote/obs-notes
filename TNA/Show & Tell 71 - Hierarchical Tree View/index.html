@@ -5,38 +5,35 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Update in 2022
-Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/Data-Viz/Data%20Visualisation/" rel="canonical"/>
+<meta content="Hierarchical tree view for deeply nested file selection" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/TNA/Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/" rel="canonical"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
 <meta content="mkdocs-1.4.1, mkdocs-material-8.5.6" name="generator"/>
-<title>Data Visualisation - Notes</title>
-<link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<title>Show &amp; Tell 71 Hierarchical Tree View - Notes</title>
+<link href="../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/blog.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/grid.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/utils.css" rel="stylesheet"/>
-<link href="../../../assets/css/admonition.css" rel="stylesheet"/>
-<link href="../../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../../assets/css/customization.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/css/template/blog.css" rel="stylesheet"/>
+<link href="../../assets/css/template/grid.css" rel="stylesheet"/>
+<link href="../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
+<link href="../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../assets/css/template/utils.css" rel="stylesheet"/>
+<link href="../../assets/css/admonition.css" rel="stylesheet"/>
+<link href="../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../assets/css/customization.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="Data Visualisation" property="og:title"/>
-<meta content="Data Visualisation" name="twitter:title"/>
-<meta content="Update in 2022
-Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" name="description"/>
-<meta content="Update in 2022
-Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" name="twitter:description"/>
+<meta content="Show &amp; Tell 71   Hierarchical Tree View" property="og:title"/>
+<meta content="Show &amp; Tell 71   Hierarchical Tree View" name="twitter:title"/>
+<meta content="Hierarchical tree view for deeply nested file selection" name="description"/>
+<meta content="Hierarchical tree view for deeply nested file selection" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -52,7 +49,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </div>
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Notes">
+<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Notes">
 <svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -68,7 +65,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Data Visualisation
+              Show &amp; Tell 71   Hierarchical Tree View
             
           </span>
 </div>
@@ -120,17 +117,17 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../Data%20Visualisation%20-%20References/">
+<a class="md-tabs__link" href="../../Design/Data-Viz/Data%20Visualisation%20-%20References/">
         Design
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-tabs__link" href="../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Research
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../TNA/Home/">
+<a class="md-tabs__link md-tabs__link--active" href="../Home/">
         TNA
       </a>
 </li>
@@ -146,14 +143,14 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Notes">
+<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Notes">
 <svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_1">
           Design
           <span class="md-nav__icon md-icon"></span>
@@ -164,8 +161,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
           Design
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_1_1">
           Data Viz
           <span class="md-nav__icon md-icon"></span>
@@ -177,13 +174,12 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Data%20Visualisation%20-%20References/">
+<a class="md-nav__link" href="../../Design/Data-Viz/Data%20Visualisation%20-%20References/">
         Data Visualisation   References
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Design/Data-Viz/Data%20Visualisation/">
         Data Visualisation
       </a>
 </li>
@@ -218,7 +214,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-nav__link" href="../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Terraforming for Urbanists   Heise
       </a>
 </li>
@@ -238,7 +234,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/Design-Research/Design%20%26%20Research/">
+<a class="md-nav__link" href="../../Research/Design-Research/Design%20%26%20Research/">
         Design &amp; Research
       </a>
 </li>
@@ -258,7 +254,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
+<a class="md-nav__link" href="../../Research/UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
         Design Resources, Repos &amp; Inspiration
       </a>
 </li>
@@ -278,12 +274,12 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/">
+<a class="md-nav__link" href="../../Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/">
         UX Research   Tree view design pattern
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/UX/UX%20Research%20-%20Web%20Accessibility/">
+<a class="md-nav__link" href="../../Research/UX/UX%20Research%20-%20Web%20Accessibility/">
         UX Research   Web Accessibility
       </a>
 </li>
@@ -293,8 +289,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           TNA
           <span class="md-nav__icon md-icon"></span>
@@ -306,12 +302,13 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Home/">
+<a class="md-nav__link" href="../Home/">
         The National Archive - Personal notes about design work
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         Show &amp; Tell 71   Hierarchical Tree View
       </a>
 </li>
@@ -328,12 +325,12 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Process/Design%20Documentation%20%26%20Change%20Tracking/">
+<a class="md-nav__link" href="../Process/Design%20Documentation%20%26%20Change%20Tracking/">
         Design Documentation &amp; Change Tracking
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Process/Prototypes/">
+<a class="md-nav__link" href="../Process/Prototypes/">
         Prototypes
       </a>
 </li>
@@ -358,18 +355,162 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Data Visualisation</h1>
-<p><strong>Update in 2022</strong><br/>
-<a href="https://www.youtube.com/watch?v=0hVnTk-2KLY">Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?</a></p>
-<p><strong>Writing</strong><br/>
-Jonathan Schwabish, Alice Feng (2021) <a href="https://www.urban.org/research/publication/do-no-harm-guide-applying-equity-awareness-data-visualization">Do No Harm Guide: Applying Equity Awareness in Data Visualization</a></p>
-<p><strong>Inspiration</strong><br/>
-<a href="https://www.maartenlambrechts.com/2021/12/29/the-list-of-2021-visualization-lists.html">The list of 2021 visualization lists</a></p>
-<p><strong>Accessibilty in data viz</strong><br/>
-<a href="https://chartability.fizz.studio/">https://chartability.fizz.studio/</a></p>
-<p><strong>Tools</strong><br/>
-<a href="https://flourish.studio/">Flourish</a> <br/>
-<a href="https://www.datawrapper.de/">DataWrapper</a> </p>
+<h1>Show &amp; Tell 71   Hierarchical Tree View</h1>
+<p>Hierarchical tree view for deeply nested file selection</p>
+<ul>
+<li>
+<p>Credit to Sam Palmer</p>
+</li>
+<li>
+<p>What do we have <a href="https://tdr-prototype.herokuapp.com/metadata/descriptive-metadata/file-level#page-1">currently</a></p>
+<ul>
+<li>Aiming to create a baseline experience without using JS</li>
+<li>Downsides </li>
+</ul>
+</li>
+<li>
+<p>how to display a file system in one page. </p>
+<ul>
+<li>A reprsentation as a nested tree structure is a fitting design pattern</li>
+<li>HTML has native elements (structure and semantics)</li>
+<li>[Non-JS example]</li>
+</ul>
+</li>
+<li>
+<p>Not a great experience with large consignment of files</p>
+</li>
+<li><strong>Research</strong> - good examples of interactive trees not that common on the web </li>
+<li>WAI-ARIA (Web Accessibilty Initiative - Accessible Rich Internet Applications)<ul>
+<li>
+<blockquote>
+<p><strong>It especially helps with dynamic content and advanced user interface controls developed with HTML, JavaScript, and related technologies.</strong></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html">https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html</a></p>
+</li>
+<li>
+<p>Features</p>
+<ul>
+<li>Nested nodes</li>
+<li>Multi-select</li>
+<li>Indeterminate checkbox states</li>
+<li>Collapsible / expandable nodes</li>
+<li>Current folder state maintained</li>
+<li>(TDR specific) Current checkbox selection maintained </li>
+</ul>
+</li>
+<li>
+<p>Accessibility features </p>
+<ul>
+<li>current position focus state</li>
+<li>keyboard controls<ul>
+<li>up, down </li>
+<li>open, close</li>
+<li>Go to start &amp; end</li>
+</ul>
+</li>
+<li>Search</li>
+<li>On tree focus default to first selected item</li>
+</ul>
+</li>
+<li>
+<p>Remaining work</p>
+<ul>
+<li>Select All &amp; Deselect all</li>
+<li>Search</li>
+<li>More robust accessibility testing on different devices</li>
+</ul>
+</li>
+<li>
+<p>Publishing the component </p>
+<ul>
+<li>Isolation of complex code</li>
+<li>Sharing component </li>
+<li>Accept contributions </li>
+</ul>
+</li>
+</ul>
+<hr/>
+<ul>
+<li>
+<p><a href="https://tdr-prototype.herokuapp.com/metadata/descriptive-metadata/file-level#page-1">Currently</a> we have a page for each folder and pagination within each page. </p>
+<ul>
+<li>For a deep nested folder you need to navigate through many pages. </li>
+<li>Or within one folder with many files you need to navigate through many pages using pagination.</li>
+</ul>
+</li>
+<li>
+<p>For a nested/hierarchical structure (such as a file system) a tree representation is ideal.</p>
+<ul>
+<li>HTML includes <a href="https://i.stack.imgur.com/rqAiC.jpg">list elements that can be nested</a> whilst passing validation and being technically accessible for screen readers and keyboard navigation. </li>
+<li>[Non-JS example]</li>
+</ul>
+</li>
+<li>
+<p>Not a great experience if the consignment of files is big</p>
+<ul>
+<li>baseline non-Javascript experience is challenging and time consuming</li>
+<li>for everyone, including those using assistive technology.     </li>
+<li><a href="https://www.a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/">https://www.a11yproject.com/posts/people-who-use-screen-readers-dont-use-javascript/</a></li>
+</ul>
+</li>
+<li>
+<p><strong>Research</strong> - It is a rare use case but is documented in ARIA web standards </p>
+</li>
+<li>WAI-ARIA (Web Accessibilty Initiative - Accessible Rich Internet Applications)<ul>
+<li>
+<blockquote>
+<p><strong>It especially helps with dynamic content and advanced user interface controls developed with HTML, JavaScript, and related technologies.</strong></p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html">https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html</a></p>
+</li>
+<li>
+<p>Features</p>
+<ul>
+<li>Nested nodes</li>
+<li>Multi-select</li>
+<li>Indeterminate checkbox states</li>
+<li>Collapsible / expandable nodes</li>
+<li>Current folder state maintained</li>
+<li>(TDR specific) Current checkbox selection maintained </li>
+</ul>
+</li>
+<li>
+<p>Accessibility features </p>
+<ul>
+<li>current position focus state</li>
+<li>keyboard controls<ul>
+<li>up, down </li>
+<li>open, close</li>
+<li>Go to start &amp; end</li>
+</ul>
+</li>
+<li>Search</li>
+<li>On tree focus default to first selected item</li>
+</ul>
+</li>
+<li>
+<p>Remaining work</p>
+<ul>
+<li>Select All &amp; Deselect all</li>
+<li>Search</li>
+<li>More robust accessibility testing on different devices</li>
+</ul>
+</li>
+<li>
+<p>Publishing the component </p>
+</li>
+</ul>
+<p><a href="https://github.com/ctdesign/gov-design-systems-list">https://github.com/ctdesign/gov-design-systems-list</a><br/>
+<a href="https://digital-land.github.io/design-system/components/filter-group/">https://digital-land.github.io/design-system/components/filter-group/</a><br/>
+<a href="https://design-patterns.service.justice.gov.uk/components/pagination/">https://design-patterns.service.justice.gov.uk/components/pagination/</a></p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -379,7 +520,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 10, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 19, 2022</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -426,7 +567,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Data Visualisation   References" class="md-footer__link md-footer__link--prev" href="../Data%20Visualisation%20-%20References/" rel="prev">
+<a aria-label="Previous: The National Archive - Personal notes about design work" class="md-footer__link md-footer__link--prev" href="../Home/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -435,17 +576,17 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              Data Visualisation   References
+              The National Archive - Personal notes about design work
             </div>
 </div>
 </a>
-<a aria-label="Next: Terraforming for Urbanists   Heise" class="md-footer__link md-footer__link--next" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/" rel="next">
+<a aria-label="Next: Design Documentation &amp; Change Tracking" class="md-footer__link md-footer__link--next" href="../Process/Design%20Documentation%20%26%20Change%20Tracking/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Terraforming for Urbanists   Heise
+              Design Documentation &amp; Change Tracking
             </div>
 </div>
 <div class="md-footer__button md-icon">
@@ -464,12 +605,12 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-<script src="../../../assets/javascripts/bundle.078830c0.min.js"></script>
-<script src="../../../assets/js/mathjax.js"></script>
-<script src="../../../assets/js/utils.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.078830c0.min.js"></script>
+<script src="../../assets/js/mathjax.js"></script>
+<script src="../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="../../../assets/js/tooltipster.bundle.js"></script>
+<script src="../../assets/js/tooltipster.bundle.js"></script>
 </body>
 </html>

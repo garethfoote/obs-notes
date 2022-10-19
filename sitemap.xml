@@ -2,52 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Design/Data-Viz/Data%20Visualisation%20-%20References/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Design/Data-Viz/Data%20Visualisation/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/Design-Research/Design%20%26%20Research/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/UX/UX%20Research%20-%20Web%20Accessibility/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/TNA/Home/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/TNA/Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/</loc>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/TNA/Process/Design%20Documentation%20%26%20Change%20Tracking/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/TNA/Process/Prototypes/</loc>
-         <lastmod>2022-10-10</lastmod>
+         <lastmod>2022-10-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
