@@ -3,37 +3,52 @@ share: true
 category: Research/UX
 ---
 
-http://a11ysyllabus.site/what-is-digital-accessibility (Syllabus produced during a Processing fellowship)
+Notes and links about web accessibility.
 
-https://abookapart.com/products/accessibility-for-everyone
 
-https://www.are.na/gareth-foote/accessibilty
 
-Myth: Accessibility is 'blind people'
+<iframe style="border:none;" width="100%" height="590" src="https://www.are.na/gareth-foote/accessibility-qy6ux9v1by8/embed" title="Gareth Foote’s Are.na channel 'Accessibility'"></iframe>
+
+# Inbox / To Read
+
+
+- [The difference between keyboard and screen reader navigation](https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/)
+- [Browsing with a keyboard](https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/)
+
+- http://a11ysyllabus.site/what-is-digital-accessibility (Syllabus produced during a Processing fellowship)
+
+- Myth: Accessibility is 'blind people'
 https://www.a11yproject.com/posts/2013-01-11-myth-accessibility-is-blind-people/
 
-a11Y Project
+- a11Y Project
 https://www.a11yproject.com/
 *The A11Y Project is a community-driven effort to make digital accessibility easier.*
 
-WCAG - Web Content Accessiblity Guidelines 
+- WCAG - Web Content Accessiblity Guidelines 
 https://www.w3.org/WAI/standards-guidelines/wcag/
 
-Foundations of Web Accessibility course
+- Foundations of Web Accessibility course
 https://www.w3.org/WAI/fundamentals/foundations-course/#who-the-course-is-for
 
-WAVE Web Accessibility Evaluation Tool
+- WAVE Web Accessibility Evaluation Tool
 https://wave.webaim.org/
 
-Responsive and Accessible
+- Responsive and Accessible
 https://www.filamentgroup.com/lab/accessible-responsive.html#hiding
 
-Alt Text
+- Alt Text
 https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text
 
+# Books
 
+- [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag
+- [Inclusive Design for a Digital World - Designing with Accessibility in Mind](https://reginegilbert.com/inclusive-design-book)  by Regine Gilbert
+# Conference
+https://conference.webaim.org/
 
+# Learning / Course
 
+[Web.dev - Learn Accessibility](https://web.dev/learn/accessibility/) 
 
 # ARIA
 
