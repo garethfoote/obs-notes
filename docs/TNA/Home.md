@@ -1,7 +1,6 @@
 ---
 share: true
 category: TNA
-title: The National Archive - Personal notes about design work
 ---
 
 Currently working on how to effectively [[Design Documentation & Change Tracking|document and track designs]] through our process. 
@@ -12,11 +11,16 @@ Jira process from UX research into Design into Dev implmentation tbc. However PO
 
 Reading a lot about the accessibility of the [[UX Research - Tree view design pattern|🌳tree view design]]. 
 
-## UX Research
+## Process
+- [[Design Documentation & Change Tracking]]
 
+## UX Research
 - [[UX Research - Accessible autocomplete input]]
 - [[UX Research - Tree view design pattern]]
 - [[UX Research - Web Accessibility]]
 
 ## Accessiblity & Testing
 - [[Accessiblity Standards and Testing]]
+
+## Sprints & Tickets
+- [[TDR-2397 Tree View]]
