@@ -18,7 +18,5 @@ Reading a lot about the accessibility of the [[UX Research - Tree view design pa
 - [[UX Research - Tree view design pattern]]
 - [[UX Research - Web Accessibility]]
 
-
 ## Accessiblity & Testing
-
 - [[Accessiblity Standards and Testing]]
