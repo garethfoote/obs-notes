@@ -7,6 +7,52 @@ Hierarchical tree view for deeply nested file selection
 
 - Credit to Sam Palmer
 
+- What do we have [currently](https://tdr-prototype.herokuapp.com/metadata/descriptive-metadata/file-level#page-1)
+	- Aiming to create a baseline experience without using JS
+	- Downsides 
+
+- how to display a file system in one page. 
+	- A reprsentation as a nested tree structure is a fitting design pattern
+	- HTML has native elements (structure and semantics)
+	- [Non-JS example]
+
+- Not a great experience with large consignment of files
+- **Research** - good examples of interactive trees not that common on the web 
+- WAI-ARIA (Web Accessibilty Initiative - Accessible Rich Internet Applications)
+	- > **It especially helps with dynamic content and advanced user interface controls developed with HTML, JavaScript, and related technologies.**
+- https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html
+
+- Features
+	- Nested nodes
+	- Multi-select
+	- Indeterminate checkbox states
+	- Collapsible / expandable nodes
+	- Current folder state maintained
+	- (TDR specific) Current checkbox selection maintained 
+
+- Accessibility features 
+	- current position focus state
+	- keyboard controls
+		- up, down 
+		- open, close
+		- Go to start & end
+	- Search
+	- On tree focus default to first selected item
+
+- Remaining work
+	- Select All & Deselect all
+	- Search
+	- More robust accessibility testing on different devices
+
+- Publishing the component 
+	- Isolation of complex code
+	- Sharing component 
+	- Accept contributions 
+
+---
+
+
+
 - [Currently](https://tdr-prototype.herokuapp.com/metadata/descriptive-metadata/file-level#page-1) we have a page for each folder and pagination within each page. 
 	- For a deep nested folder you need to navigate through many pages. 
 	- Or within one folder with many files you need to navigate through many pages using pagination.
