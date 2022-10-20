@@ -30,7 +30,6 @@ What design, content or interaction elements are at risk of being lost or forgot
 	- An example is the green tick being used in TDR metadata to indicate existing metadata
 
 # General Documentation
-
 ## Component level documentation (GDS)
 
 Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes care of the component level documentation unless we are creating our own components, for example the tree view. It should cover:
@@ -42,6 +41,7 @@ Thankfully the [Gov Design System](https://design-system.service.gov.uk/) takes 
 
 > [!INFO]
 > See [[#Examples]] for how a dropdown component could be documented.
+
 
 ## User flows and screen flows
 
