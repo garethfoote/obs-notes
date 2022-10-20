@@ -1,7 +1,7 @@
 
 ---
 share: true
-category: Research/UI
+category: Design/UI
 ---
 
 # UI Collections & Patterns

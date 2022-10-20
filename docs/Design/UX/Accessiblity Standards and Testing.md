@@ -1,6 +1,6 @@
 ---
 share: true
-category: Research/UX
+category: Design/UX
 ---
 
 Government guidance and standards for accessibility.

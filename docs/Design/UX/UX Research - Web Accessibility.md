@@ -1,7 +1,8 @@
 ---
 share: true
-category: Research/UX
+category: Design/UX
 ---
+
 
 Notes and links about web accessibility.
 

@@ -1,6 +1,6 @@
 ---
 share: true
-category: Research/UX
+category: Design/UX
 ---
 
 [MDN Web Docs - ARIA: tree role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role) 
