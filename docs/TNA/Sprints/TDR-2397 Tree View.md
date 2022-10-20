@@ -33,9 +33,9 @@ Image above from [Testing with assistive technologies](https://www.gov.uk/servic
 ### JAWS on Windows (desktop screen reader)
 [[JAWS-Windows.mp4]]
 ### NVDA on Windows (desktop screen reader)
-NVDA-Windows.mp4
+[[NVDA-Windows.mp4]]
 ### VoiceOver on MacOS (desktop screen reader)
-VoiceOver-DesktopMacOS-Chrome.mov
+[[VoiceOver-DesktopMacOS-Chrome.mov]]
 
 # Coding Resources
 ## functional recursive tree walking
