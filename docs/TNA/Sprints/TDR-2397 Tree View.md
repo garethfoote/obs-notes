@@ -3,7 +3,9 @@ share: true
 category: TNA/Sprints
 ---
 
-# Tree view research
+Design a tree view implementation for a file hierachy display and selection. Use GDS styles and mirror components where possible. Must be multi-select. Must be as accesibile as possible.
+
+# UX Research
 - [[UX Research - Tree view design pattern]]
 
 # Accessibility Features
@@ -29,7 +31,7 @@ Image above from [Testing with assistive technologies](https://www.gov.uk/servic
 ## Recordings 19th October
 
 ### JAWS on Windows (desktop screen reader)
-JAWS-Windows.mp4
+[[JAWS-Windows.mp4]]
 ### NVDA on Windows (desktop screen reader)
 NVDA-Windows.mp4
 ### VoiceOver on MacOS (desktop screen reader)
