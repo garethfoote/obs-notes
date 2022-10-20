@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Research/UX/UX%20Research%20-%20Tree%20view%20design%20pattern/" rel="canonical"/>
+<meta content="Obsidian Notes - Writing in public" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Research%20-%20Autocomplete%20select%20for%20multiple%20files/" rel="canonical"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
 <meta content="mkdocs-1.4.1, mkdocs-material-8.5.6" name="generator"/>
-<title>UX Research Tree view design pattern - Notes</title>
+<title>Rationale / Need - Notes</title>
 <link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -30,10 +30,10 @@
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="UX Research   Tree view design pattern" property="og:title"/>
-<meta content="UX Research   Tree view design pattern" name="twitter:title"/>
-<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
-<meta content="MDN Web Docs - ARIA: tree role" name="twitter:description"/>
+<meta content="Rationale / Need" property="og:title"/>
+<meta content="Rationale / Need" name="twitter:title"/>
+<meta content="Obsidian Notes - Writing in public" name="og:description"/>
+<meta content="Obsidian Notes - Writing in public" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -44,7 +44,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#other-links">
+<a class="md-skip" href="#rationale-need">
           Skip to content
         </a>
 </div>
@@ -68,7 +68,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              UX Research   Tree view design pattern
+              Rationale / Need
             
           </span>
 </div>
@@ -120,12 +120,12 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Design/Data-Viz/Data%20Visualisation%20-%20References/">
+<a class="md-tabs__link md-tabs__link--active" href="../../Data-Viz/Data%20Visualisation%20-%20References/">
         Design
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-tabs__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Research
       </a>
 </li>
@@ -152,8 +152,8 @@
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_1">
           Design
           <span class="md-nav__icon md-icon"></span>
@@ -177,23 +177,120 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Design/Data-Viz/Data%20Visualisation%20-%20References/">
+<a class="md-nav__link" href="../../Data-Viz/Data%20Visualisation%20-%20References/">
         Data Visualisation   References
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Design/Data-Viz/Data%20Visualisation/">
+<a class="md-nav__link" href="../../Data-Viz/Data%20Visualisation/">
         Data Visualisation
       </a>
 </li>
 </ul>
 </nav>
 </li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2">
+          UI
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="UI" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_2">
+<span class="md-nav__icon md-icon"></span>
+          UI
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
+        Design Resources, Repos &amp; Inspiration
+      </a>
+</li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" id="__nav_1_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_3">
+          UX
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="UX" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_1_3">
+<span class="md-nav__icon md-icon"></span>
+          UX
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Accessiblity%20Standards%20and%20Testing/">
+        Accessiblity Standards and Testing
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Rationale / Need
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Rationale / Need
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#rationale-need">
+    Rationale / Need
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#existing-off-the-shelf-solutions">
+    Existing off-the-shelf solutions
+  </a>
+<nav aria-label="Existing off-the-shelf solutions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-select-only-from-gdsalphagov">
+    Single select only from GDS/Alphagov
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-select-accessibility-focussed-but-not-maintained">
+    Multi-select accessibility focussed, but not maintained
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bespoke-solution-from-govuk-newsfinder">
+    Bespoke solution from Gov.uk NewsFinder
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../UX%20Research%20-%20Tree%20view%20design%20pattern/">
+        UX Research   Tree view design pattern
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../UX%20Research%20-%20Web%20Accessibility/">
+        UX Research   Web Accessibility
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
           Research
           <span class="md-nav__icon md-icon"></span>
@@ -217,7 +314,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-nav__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Terraforming for Urbanists   Heise
       </a>
 </li>
@@ -227,91 +324,18 @@
 <li class="md-nav__item md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2_2">
-          Design Research
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-label="Design Research" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_2">
-<span class="md-nav__icon md-icon"></span>
-          Design Research
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../Design-Research/Design%20%26%20Research/">
-        Design &amp; Research
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_3">
-          UI
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-label="UI" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_3">
-<span class="md-nav__icon md-icon"></span>
-          UI
-        </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
-        Design Resources, Repos &amp; Inspiration
-      </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" id="__nav_2_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_4">
           UX
           <span class="md-nav__icon md-icon"></span>
 </label>
 <nav aria-label="UX" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_2_4">
+<label class="md-nav__title" for="__nav_2_2">
 <span class="md-nav__icon md-icon"></span>
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Accessiblity%20Standards%20and%20Testing/">
-        Accessiblity Standards and Testing
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessible%20autocomplete%20input/">
+<a class="md-nav__link" href="../../../Research/UX/UX%20Research%20-%20Accessible%20autocomplete%20input/">
         UX Research   Accessible autocomplete input
-      </a>
-</li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          UX Research   Tree view design pattern
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
-        UX Research   Tree view design pattern
-      </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#other-links">
-    Other Links
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Web%20Accessibility/">
-        UX Research   Web Accessibility
       </a>
 </li>
 </ul>
@@ -405,9 +429,33 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#other-links">
-    Other Links
+<a class="md-nav__link" href="#rationale-need">
+    Rationale / Need
   </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#existing-off-the-shelf-solutions">
+    Existing off-the-shelf solutions
+  </a>
+<nav aria-label="Existing off-the-shelf solutions" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#single-select-only-from-gdsalphagov">
+    Single select only from GDS/Alphagov
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#multi-select-accessibility-focussed-but-not-maintained">
+    Multi-select accessibility focussed, but not maintained
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#bespoke-solution-from-govuk-newsfinder">
+    Bespoke solution from Gov.uk NewsFinder
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -416,32 +464,33 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>UX Research   Tree view design pattern</h1>
-<p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role">MDN Web Docs - ARIA: tree role</a> </p>
-<blockquote>
-<p>An example of a <code>tree</code> is a file system selection user interface: a tree view displaying folders and files. Folder items can be expanded to reveal the contents of the folder — which may be files, folders, or both — and collapsed, hiding its contents.</p>
-</blockquote>
-<p><a href="https://dequeuniversity.com/library/aria/tree-view">Deque University - Tree View example</a></p>
-<blockquote>
-<p>Tree view is a hierarchical structure with parent and child nodes that can expand and collapse. Tree views on the web are not common, but they do exist, often to represent a file system or other similar structure of folders and files.</p>
-</blockquote>
-<p><a href="https://www.w3.org/WAI/ARIA/apg/patterns/treeview/">ARIA Authoring Practices Guide (APG) - Tree View</a><br/>
-<a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html">ARIA Authoring Practices Guide (APG) - File Directory Treeview Example</a></p>
+<h1>Rationale / Need</h1>
+<h2 id="rationale-need">Rationale / Need<a class="headerlink" href="#rationale-need" title="Permanent link">¶</a></h2>
+<p>There are various cases when a select element with many options can be quite unweildy to use. Scrolling or tabbing through a list of hundreds of items is time consuming and challenging. </p>
+<p>Within TDR we have at least two use cases for this scenario - selecting multiple FOI exemption codes and selecting multiple languages. </p>
+<p>Currently we have a separate page of checkboxes for choosing FOI exemption codes, which requires the user to leave the current page/form to select options before returning to complete the rest of the form. It would be more efficient, potentially less error prone if we could keep the user on the same form whilst they select multiple options. This solution will depend on JavaScript progressive enhancement.</p>
+<h2 id="existing-off-the-shelf-solutions">Existing off-the-shelf solutions<a class="headerlink" href="#existing-off-the-shelf-solutions" title="Permanent link">¶</a></h2>
+<h3 id="single-select-only-from-gdsalphagov">Single select only from GDS/Alphagov<a class="headerlink" href="#single-select-only-from-gdsalphagov" title="Permanent link">¶</a></h3>
+<p>There is an Accessible Autocomplete component (<a href="https://github.com/alphagov/accessible-autocomplete">Github</a> and <a href="https://alphagov.github.io/accessible-autocomplete/examples/">examples</a>)  maintained by GDS that is very useful for single select. It offers autocomplete and is built to allow progressive enhancement (i.e. picking up already rendered HTML elements). </p>
+<p>This, however, doesn’t include the ability to select multiple options. </p>
+<h3 id="multi-select-accessibility-focussed-but-not-maintained">Multi-select accessibility focussed, but not maintained<a class="headerlink" href="#multi-select-accessibility-focussed-but-not-maintained" title="Permanent link">¶</a></h3>
+<p>Github user <a href="https://github.com/mynamesleon/">mynamesleaon</a> has built upon the Accessible Autocomplete module making his own called <a href="https://github.com/mynamesleon/aria-autocomplete">Aria Autocomplete</a>, which includes multiple file selection. Similarly to Accessible Autocomplete it can progressively enhance already rendered HTML checkboxes or selects. It has an accessibility focus (“Use of ARIA attributes, custom screen reader announcements, and testing with assistive technologies”) but isn’t being maintained activley compared to the GDS/alphagov predecessor. </p>
 <div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Each of the above has a CodePen example</p>
+<p class="admonition-title">Regular maintenance might not be an issue</p>
+<p>The component is written in vanilla JS and with a focus on accessibilty standards that haven’t changed dramatically since the component was written. Therefore if this does what we need then we can continue with user, uasbility and accessibility testing.</p>
 </div>
-<p><a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-navigation">ARIA Authoring Practices Guide (APG) - Navigation Treeview example</a><br/>
-Often treeviews are used for complex nested navigation but this is not recommended</p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>The above use of a treeview is an anti-pattern. Not the best accessibilty pattern to use. <br/>
-“A pattern more suited for typical site navigation with expandable groups of links is the <a href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/">disclosure pattern.</a>“</p>
-</div>
-<p><a href="https://www.patternfly.org/2021.16/components/tree-view/design-guidelines">PatternFly Design System (from Red Hat) - Design Guidelines for tree view</a></p>
-<h5 id="other-links">Other Links<a class="headerlink" href="#other-links" title="Permanent link">¶</a></h5>
-<p><a href="http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/">http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/</a> (2013)<br/>
-<a href="https://mdbootstrap.com/docs/standard/plugins/tree-view/">https://mdbootstrap.com/docs/standard/plugins/tree-view/</a> </p>
+<h3 id="bespoke-solution-from-govuk-newsfinder">Bespoke solution from Gov.uk NewsFinder<a class="headerlink" href="#bespoke-solution-from-govuk-newsfinder" title="Permanent link">¶</a></h3>
+<p>This article very usefully describes the GDS teams process of developing and testing a multi-select form input for the <a href="https://www.gov.uk/search/news-and-communications">News Finder</a> on gov.uk: </p>
+<p>📰 <a href="https://accessibility.blog.gov.uk/2019/04/08/accessibility-lessons-dealing-with-a-large-amount-of-form-inputs/">Accessibility lessons: dealing with a large amount of form inputs - Accessibility in government</a></p>
+<p>They start by using the <a href="https://alphagov.github.io/accessible-autocomplete/examples/">alphagov/accessible-autocomplete</a>, then try using the <a href="https://github.com/mynamesleon/aria-autocomplete">multi-select version</a>, and then abandon both in favour of their own bespoke solution. </p>
+<p>Extremely helpful human Andy Sellick (Front end Dev at GDS) sent me the repo location for this code:</p>
+<ul>
+<li><a href="https://github.com/alphagov/finder-frontend/blob/main/app/assets/javascripts/components/option-select.js">JavaScript</a></li>
+<li><a href="https://github.com/alphagov/finder-frontend/blob/main/app/views/components/_option-select.html.erb">Rails template</a></li>
+<li><a href="https://github.com/alphagov/finder-frontend/blob/main/spec/components/option_select_spec.rb">Rails test file</a></li>
+<li><a href="https://github.com/alphagov/finder-frontend/blob/main/spec/javascripts/components/option-select-spec.js">JavaScript test file</a></li>
+<li><a href="https://github.com/alphagov/finder-frontend/blob/main/app/views/components/docs/option-select.yml">documentation file</a> - there’s a live rendered version of this but it’s currently down for some reason, will have a look</li>
+</ul>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -451,7 +500,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">September 23, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 20, 2022</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -498,7 +547,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: UX Research   Accessible autocomplete input" class="md-footer__link md-footer__link--prev" href="../UX%20Research%20-%20Accessible%20autocomplete%20input/" rel="prev">
+<a aria-label="Previous: Accessiblity Standards and Testing" class="md-footer__link md-footer__link--prev" href="../Accessiblity%20Standards%20and%20Testing/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -507,17 +556,17 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              UX Research   Accessible autocomplete input
+              Accessiblity Standards and Testing
             </div>
 </div>
 </a>
-<a aria-label="Next: UX Research   Web Accessibility" class="md-footer__link md-footer__link--next" href="../UX%20Research%20-%20Web%20Accessibility/" rel="next">
+<a aria-label="Next: UX Research   Tree view design pattern" class="md-footer__link md-footer__link--next" href="../UX%20Research%20-%20Tree%20view%20design%20pattern/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              UX Research   Web Accessibility
+              UX Research   Tree view design pattern
             </div>
 </div>
 <div class="md-footer__button md-icon">
