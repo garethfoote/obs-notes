@@ -9,9 +9,6 @@ Good example from Gov UK is the [news page](https://www.gov.uk/search/news-and-c
 
 [alphagov accessible autocomplete component](https://github.com/alphagov/accessible-autocomplete)
 
-## Issues 
 
-Keyboard accessibility with scrollable areas:
-https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/proposed/
 
 

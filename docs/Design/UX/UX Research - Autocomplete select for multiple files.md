@@ -40,3 +40,9 @@ Extremely helpful human Andy Sellick (Front end Dev at GDS) sent me the repo loc
 -   [Rails test file](https://github.com/alphagov/finder-frontend/blob/main/spec/components/option_select_spec.rb)
 -   [JavaScript test file](https://github.com/alphagov/finder-frontend/blob/main/spec/javascripts/components/option-select-spec.js)
 -   [documentation file](https://github.com/alphagov/finder-frontend/blob/main/app/views/components/docs/option-select.yml) - there's a live rendered version of this but it's currently down for some reason, will have a look
+
+
+# Issues 
+
+Keyboard accessibility with scrollable areas:
+https://www.w3.org/WAI/standards-guidelines/act/rules/0ssw9k/proposed/
