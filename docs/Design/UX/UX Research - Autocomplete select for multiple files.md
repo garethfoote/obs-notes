@@ -3,8 +3,6 @@ share: true
 category: Design/UX
 ---
 
-# Rationale / Need
-
 There are various cases when a select element with many options can be quite unweildy to use. Scrolling or tabbing through a list of hundreds of items is time consuming and challenging. 
 
 Within TDR we have at least two use cases for this scenario - selecting multiple FOI exemption codes and selecting multiple languages. 
