@@ -15,8 +15,8 @@ Reading a lot about the accessibility of the [[UX Research - Tree view design pa
 - [[Design Documentation & Change Tracking]]
 
 ## UX Research
-- [[UX Research - Accessible autocomplete input]]
 - [[UX Research - Tree view design pattern]]
+- [[UX Research - Autocomplete select for multiple files]]
 - [[UX Research - Web Accessibility]]
 
 ## Accessiblity & Testing
