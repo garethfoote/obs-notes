@@ -9,6 +9,8 @@ Design a tree view implementation for a file hierachy display and selection. Use
 - [[UX Research - Tree view design pattern]]
 
 # Accessibility Features
+- [ ] (Suggested) Add count vs selected count to each parent node?
+- [ ] Auto focus on first open item
 - [x] **Keyboard navigation**
 - [x] Add `aria-multiselectable` to tree
 - [x] Add `aria-selected` to all nodes
@@ -16,11 +18,8 @@ Design a tree view implementation for a file hierachy display and selection. Use
 - [x] Visual design should differentiate between selected and focussed. Selected = checkbox. Focus = border on checkbox
 	In multi-select trees, the selected state is always independent of the focus. For example, in a typical file system navigator, the user can move focus to select any number of files for an action, such as copy or move. The visual design should make it clear which items are selected and which item has focus.
 - [x]  Add `aria-expanded` to all items with children
-- [ ] ??? Add count vs selected count to each parent node?
-- [ ] Auto focus on first open item
-- [ ] Auto focus on the last open item
-- [ ] When page reloads and re-selects it doesn't set indeterminate parent checkboxes
 - [x] Declare level, size and position based on [this example](https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html) 
+
 
 
 # Accessibility Testing
