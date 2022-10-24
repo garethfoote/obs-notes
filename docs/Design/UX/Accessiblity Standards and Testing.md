@@ -3,21 +3,53 @@ share: true
 category: Design/UX
 ---
 
-Government guidance and standards for accessibility.
+# Introduction
+> Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.
+[Making your service accessible: an introduction - Service Manual - GOV.UK](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
 
-- [Accessibility and assisted digital](https://www.gov.uk/service-manual/helping-people-to-use-your-service)
-	- [Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
-	- [Getting an accessibility audit](https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit) 
-	
-- [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) 
+More info on the accessibilty regulations for public sector bodies: [Understanding accessibility requirements for public sector bodies - GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
----
 
+# How to document accessibility
+
+[Web: How to document the screen reader user experience - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html)
+
+
+ > Using your visual as a starting point, we’ll take you step by step through how to document the screen reader UX introducing concepts along the way.  
+![[screen-reader-ux-poster.png|inlL|400]] 
 
 
 # Testing for accessibility
 
 Gov service manual article on [testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility).
 
+## Most commonly used assistive technology
+- [WebAIM: Screen Reader User Survey #9 Results](https://webaim.org/projects/screenreadersurvey9/)
+
+## How to use screen readers
 - How to use [VoiceOver for MacOS and iOS](https://webaim.org/articles/voiceover/) on WebAIM
-- [Screen Reader survey](https://webaim.org/projects/screenreadersurvey9/) on WebAIM
+- BBC News Accessibility - [NVDA for WIndows testing steps](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/nvda-windows.html)
+- Introduces the basics of screen reader technologies (JAWS, NVDA & VoiceOver) + tips on how to test a service/site with them. 
+	https://accessibility-training.herokuapp.com/
+
+
+# Resources
+
+## Gov Service Manual
+- [Accessibility and assisted digital](https://www.gov.uk/service-manual/helping-people-to-use-your-service)
+	- [Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
+	- [Getting an accessibility audit](https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit) 
+- [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) 
+
+## Gov Accessibility Blog
+- [Assistive technology tools you can test with at no cost - Accessibility in government ](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/)
+
+## HMRC Accessibility Manual
+Introduces the basics of screen reader technologies (JAWS, NVDA & VoiceOver) + tips on how to test a service/site with them.
+https://accessibility-training.herokuapp.com/
+(username and password in Enpass)
+
+## BBC News Accessibility 
+- [Accessibility, News and You](https://bbc.github.io/accessibility-news-and-you/) - Homepage
+- [Accessibility Design Review](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html)
+
