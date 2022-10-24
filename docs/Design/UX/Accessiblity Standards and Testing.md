@@ -3,8 +3,6 @@ share: true
 category: Design/UX
 ---
 
-# Intro
-
 > Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.
 [Making your service accessible: an introduction - Service Manual - GOV.UK](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction)
 
@@ -37,14 +35,12 @@ Gov service manual article on [testing for accessibility](https://www.gov.uk/ser
 # Resources
 
 ## Gov Service Manual
-
 - [Accessibility and assisted digital](https://www.gov.uk/service-manual/helping-people-to-use-your-service)
 	- [Testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
 	- [Getting an accessibility audit](https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit) 
 - [Understanding accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) 
 
 ## Gov Accessibility Blog
-
 - [Assistive technology tools you can test with at no cost - Accessibility in government ](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/)
 
 ## HMRC Accessibility Manual
@@ -53,6 +49,6 @@ https://accessibility-training.herokuapp.com/
 (username and password in Enpass)
 
 ## BBC News Accessibility 
-
 - [Accessibility, News and You](https://bbc.github.io/accessibility-news-and-you/) - Homepage
 - [Accessibility Design Review](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html)
+
