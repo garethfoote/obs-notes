@@ -34,8 +34,6 @@ Gov service manual article on [testing for accessibility](https://www.gov.uk/ser
 	https://accessibility-training.herokuapp.com/
 
 
-
-
 # Resources
 
 ## Gov Service Manual
@@ -58,4 +56,3 @@ https://accessibility-training.herokuapp.com/
 
 - [Accessibility, News and You](https://bbc.github.io/accessibility-news-and-you/) - Homepage
 - [Accessibility Design Review](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html)
-
