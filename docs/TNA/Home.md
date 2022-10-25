@@ -9,18 +9,18 @@ Creating [[Prototypes|3 variations on our coded prototype]] to accomodate differ
 
 Jira process from UX research into Design into Dev implmentation tbc. However PO has suggested that it is the responsibility of the designer to create an implementation card from a design card if it doesn't already exist. 
 
-Reading a lot about the accessibility of the [[UX Research - Tree view design pattern|🌳tree view design]]. 
+Reading a lot about the accessibility of the [[UX Pattern - Tree view|🌳tree view design]]. 
 
 ## Process
 - [[Design Documentation & Change Tracking]]
 
 ## UX Research
-- [[UX Research - Tree view design pattern]]
-- [[UX Research - Autocomplete select for multiple files]]
-- [[UX Research - Web Accessibility]]
+- [[UX Pattern - Tree view]]
+- [[UX Pattern - Autocomplete select for multiple files]]
+- [[UX Research - Accessibility]]
 
 ## Accessiblity & Testing
-- [[Accessiblity Standards and Testing]]
+- [[UX Research - Web Accessiblity Standards and Testing]]
 
 ## Sprints & Tickets
 - [[TDR-2397 Tree View]]
