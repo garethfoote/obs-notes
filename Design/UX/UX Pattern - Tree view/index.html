@@ -5,11 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Notes and links about web accessibility." name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Research%20-%20Web%20Accessibility/" rel="canonical"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Pattern%20-%20Tree%20view/" rel="canonical"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
 <meta content="mkdocs-1.4.1, mkdocs-material-8.5.7" name="generator"/>
-<title>UX Research Web Accessibility - Notes</title>
+<title>UX Pattern Tree view - Notes</title>
 <link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -30,10 +30,10 @@
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="UX Research   Web Accessibility" property="og:title"/>
-<meta content="UX Research   Web Accessibility" name="twitter:title"/>
-<meta content="Notes and links about web accessibility." name="description"/>
-<meta content="Notes and links about web accessibility." name="twitter:description"/>
+<meta content="UX Pattern   Tree view" property="og:title"/>
+<meta content="UX Pattern   Tree view" name="twitter:title"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="description"/>
+<meta content="MDN Web Docs - ARIA: tree role" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -44,7 +44,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#inbox-to-read">
+<a class="md-skip" href="#other-links">
           Skip to content
         </a>
 </div>
@@ -68,7 +68,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              UX Research   Web Accessibility
+              UX Pattern   Tree view
             
           </span>
 </div>
@@ -222,28 +222,18 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../Accessiblity%20Standards%20and%20Testing/">
-        Accessiblity Standards and Testing
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Autocomplete%20select%20for%20multiple%20files/">
-        UX Research   Autocomplete select for multiple files
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Tree%20view%20design%20pattern/">
-        UX Research   Tree view design pattern
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
+        UX Pattern   Autocomplete select for multiple files
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          UX Research   Web Accessibility
+          UX Pattern   Tree view
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        UX Research   Web Accessibility
+        UX Pattern   Tree view
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -252,55 +242,22 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#inbox-to-read">
-    Inbox / To Read
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#books">
-    Books
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#conference">
-    Conference
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#learning-course">
-    Learning / Course
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#aria">
-    ARIA
-  </a>
-<nav aria-label="ARIA" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#menus-vs-nav">
-    Menus vs Nav
+<a class="md-nav__link" href="#other-links">
+    Other Links
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#hiding-content">
-    Hiding content
-  </a>
-<nav aria-label="Hiding content" class="md-nav">
-<ul class="md-nav__list">
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility/">
+        UX Research   Accessibility
+      </a>
+</li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#accessible-hamburger-menus">
-    Accessible hamburger menus
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
+<a class="md-nav__link" href="../UX%20Research%20-%20Web%20Accessiblity%20Standards%20and%20Testing/">
+        UX Research   Web Accessiblity Standards and Testing
+      </a>
 </li>
 </ul>
 </nav>
@@ -428,52 +385,9 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#inbox-to-read">
-    Inbox / To Read
+<a class="md-nav__link" href="#other-links">
+    Other Links
   </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#books">
-    Books
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#conference">
-    Conference
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#learning-course">
-    Learning / Course
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#aria">
-    ARIA
-  </a>
-<nav aria-label="ARIA" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#menus-vs-nav">
-    Menus vs Nav
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hiding-content">
-    Hiding content
-  </a>
-<nav aria-label="Hiding content" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#accessible-hamburger-menus">
-    Accessible hamburger menus
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -482,72 +396,32 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>UX Research   Web Accessibility</h1>
-<p>Notes and links about web accessibility.</p>
-<iframe height="590" src="https://www.are.na/gareth-foote/accessibility-qy6ux9v1by8/embed" style="border:none;" title="Gareth Foote’s Are.na channel 'Accessibility'" width="100%"></iframe>
-<h2 id="inbox-to-read">Inbox / To Read<a class="headerlink" href="#inbox-to-read" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/">The difference between keyboard and screen reader navigation</a></li>
-<li>
-<p><a href="https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/">Browsing with a keyboard</a></p>
-</li>
-<li>
-<p><a href="http://a11ysyllabus.site/what-is-digital-accessibility">http://a11ysyllabus.site/what-is-digital-accessibility</a> (Syllabus produced during a Processing fellowship)</p>
-</li>
-<li>
-<p>Myth: Accessibility is ‘blind people’<br/>
-<a href="https://www.a11yproject.com/posts/2013-01-11-myth-accessibility-is-blind-people/">https://www.a11yproject.com/posts/2013-01-11-myth-accessibility-is-blind-people/</a></p>
-</li>
-<li>
-<p>a11Y Project<br/>
-<a href="https://www.a11yproject.com/">https://www.a11yproject.com/</a><br/>
-<em>The A11Y Project is a community-driven effort to make digital accessibility easier.</em></p>
-</li>
-<li>
-<p>WCAG - Web Content Accessiblity Guidelines <br/>
-<a href="https://www.w3.org/WAI/standards-guidelines/wcag/">https://www.w3.org/WAI/standards-guidelines/wcag/</a></p>
-</li>
-<li>
-<p>Foundations of Web Accessibility course<br/>
-<a href="https://www.w3.org/WAI/fundamentals/foundations-course/">https://www.w3.org/WAI/fundamentals/foundations-course/</a><strong class="hash" id="who">who</strong>-the-course-is-for</p>
-</li>
-<li>
-<p>WAVE Web Accessibility Evaluation Tool<br/>
-<a href="https://wave.webaim.org/">https://wave.webaim.org/</a></p>
-</li>
-<li>
-<p>Responsive and Accessible<br/>
-<a href="https://www.filamentgroup.com/lab/accessible-responsive.html">https://www.filamentgroup.com/lab/accessible-responsive.html</a><strong class="hash" id="hiding">hiding</strong></p>
-</li>
-<li>
-<p>Alt Text<br/>
-<a href="https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text">https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text</a></p>
-</li>
-</ul>
-<h2 id="books">Books<a class="headerlink" href="#books" title="Permanent link">¶</a></h2>
-<ul>
-<li><a href="https://abookapart.com/products/accessibility-for-everyone">Accessibility for Everyone</a> by Laura Kalbag</li>
-<li><a href="https://reginegilbert.com/inclusive-design-book">Inclusive Design for a Digital World - Designing with Accessibility in Mind</a>  by Regine Gilbert</li>
-</ul>
-<h2 id="conference">Conference<a class="headerlink" href="#conference" title="Permanent link">¶</a></h2>
-<p><a href="https://conference.webaim.org/">https://conference.webaim.org/</a></p>
-<h2 id="learning-course">Learning / Course<a class="headerlink" href="#learning-course" title="Permanent link">¶</a></h2>
-<p><a href="https://web.dev/learn/accessibility/">Web.dev - Learn Accessibility</a> </p>
-<h2 id="aria">ARIA<a class="headerlink" href="#aria" title="Permanent link">¶</a></h2>
-<p>Don’t Use ARIA Menu Roles for Site Nav<br/>
-<a href="https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html">https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html</a></p>
-<p>And generally don’t use it when not necessary. </p>
-<h4 id="menus-vs-nav">Menus vs Nav<a class="headerlink" href="#menus-vs-nav" title="Permanent link">¶</a></h4>
-<p>Menus in ARIA are used to replicate native desktop behaviour<br/>
-<a href="https://www.w3.org/WAI/GL/wiki/Using_ARIA_menus">https://www.w3.org/WAI/GL/wiki/Using_ARIA_menus</a></p>
-<p>Navs are for site wide content, not single page.</p>
-<h2 id="hiding-content">Hiding content<a class="headerlink" href="#hiding-content" title="Permanent link">¶</a></h2>
-<p><a href="https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/">https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/</a><br/>
-<a href="https://gomakethings.com/hidden-content-for-better-a11y/">https://gomakethings.com/hidden-content-for-better-a11y/</a></p>
-<h4 id="accessible-hamburger-menus">Accessible hamburger menus<a class="headerlink" href="#accessible-hamburger-menus" title="Permanent link">¶</a></h4>
-<p><a href="https://knowbility.org/blog/2020/accessible-slide-menus">https://knowbility.org/blog/2020/accessible-slide-menus</a><br/>
-<a href="https://www.impressivewebs.com/accessible-keyboard-friendly-hamburger-menu-slide-out-navigation/">https://www.impressivewebs.com/accessible-keyboard-friendly-hamburger-menu-slide-out-navigation/</a><br/>
-<a href="http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu">http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu</a></p>
+<h1>UX Pattern   Tree view</h1>
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role">MDN Web Docs - ARIA: tree role</a> </p>
+<blockquote>
+<p>An example of a <code>tree</code> is a file system selection user interface: a tree view displaying folders and files. Folder items can be expanded to reveal the contents of the folder — which may be files, folders, or both — and collapsed, hiding its contents.</p>
+</blockquote>
+<p><a href="https://dequeuniversity.com/library/aria/tree-view">Deque University - Tree View example</a></p>
+<blockquote>
+<p>Tree view is a hierarchical structure with parent and child nodes that can expand and collapse. Tree views on the web are not common, but they do exist, often to represent a file system or other similar structure of folders and files.</p>
+</blockquote>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/patterns/treeview/">ARIA Authoring Practices Guide (APG) - Tree View</a><br/>
+<a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-1/treeview-1b.html">ARIA Authoring Practices Guide (APG) - File Directory Treeview Example</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each of the above has a CodePen example</p>
+</div>
+<p><a href="https://www.w3.org/WAI/ARIA/apg/example-index/treeview/treeview-navigation">ARIA Authoring Practices Guide (APG) - Navigation Treeview example</a><br/>
+Often treeviews are used for complex nested navigation but this is not recommended</p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p>The above use of a treeview is an anti-pattern. Not the best accessibilty pattern to use. <br/>
+“A pattern more suited for typical site navigation with expandable groups of links is the <a href="https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/">disclosure pattern.</a>“</p>
+</div>
+<p><a href="https://www.patternfly.org/2021.16/components/tree-view/design-guidelines">PatternFly Design System (from Red Hat) - Design Guidelines for tree view</a></p>
+<h5 id="other-links">Other Links<a class="headerlink" href="#other-links" title="Permanent link">¶</a></h5>
+<p><a href="http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/">http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/</a> (2013)<br/>
+<a href="https://mdbootstrap.com/docs/standard/plugins/tree-view/">https://mdbootstrap.com/docs/standard/plugins/tree-view/</a> </p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -557,7 +431,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 20, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 25, 2022</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -604,7 +478,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: UX Research   Tree view design pattern" class="md-footer__link md-footer__link--prev" href="../UX%20Research%20-%20Tree%20view%20design%20pattern/" rel="prev">
+<a aria-label="Previous: UX Pattern   Autocomplete select for multiple files" class="md-footer__link md-footer__link--prev" href="../UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -613,17 +487,17 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              UX Research   Tree view design pattern
+              UX Pattern   Autocomplete select for multiple files
             </div>
 </div>
 </a>
-<a aria-label="Next: Terraforming for Urbanists   Heise" class="md-footer__link md-footer__link--next" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/" rel="next">
+<a aria-label="Next: UX Research   Accessibility" class="md-footer__link md-footer__link--next" href="../UX%20Research%20-%20Accessibility/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Terraforming for Urbanists   Heise
+              UX Research   Accessibility
             </div>
 </div>
 <div class="md-footer__button md-icon">
