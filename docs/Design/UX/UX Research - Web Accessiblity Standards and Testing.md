@@ -8,7 +8,6 @@ category: Design/UX
 
 More info on the accessibilty regulations for public sector bodies: [Understanding accessibility requirements for public sector bodies - GOV.UK](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
 
-
 # Accessibility Principles & Guidelines
 
 ## WCAG 
@@ -59,13 +58,6 @@ Gov service manual article on [testing for accessibility](https://www.gov.uk/ser
 	- [VoiceOver on iPhone testing steps - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-ios.html)
 	- [TalkBack on Android testing steps - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/talkback-android.html)
 
-
-# Courses and HE Programs in Accessibility
-
-- [MSc Disability, Design and Innovation at UCL - Global Disability Innovation Hub](https://www.disabilityinnovation.com/projects/msc-disability-design-and-innovation-at-ucl)
-	- UCL is also the home to the [disability innovation hub](https://www.disabilityinnovation.com/)
-- [Educational Assistive Technology MSc | University of Dundee](https://www.dundee.ac.uk/postgraduate/educational-assistive-technology)
-
 # Resources
 ## Gov Service Manual
 - [Accessibility and assisted digital](https://www.gov.uk/service-manual/helping-people-to-use-your-service)
@@ -84,8 +76,4 @@ https://accessibility-training.herokuapp.com/
 ## BBC News Accessibility 
 - [Accessibility, News and You](https://bbc.github.io/accessibility-news-and-you/) - Homepage
 - [Accessibility Design Review](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html)
-
-## Are.na Collection
-
-https://www.are.na/gareth-foote/accessibility-qy6ux9v1by8
 

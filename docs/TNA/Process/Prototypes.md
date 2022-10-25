@@ -10,3 +10,8 @@ Prototypes are used for review, testing and dev integration.
 3.  **Dev integration**. Everything signed off after PO review and user tested. [https://tdr-prototype.herokuapp.com/](https://tdr-prototype.herokuapp.com/)
 
 
+## Heroku alternatives
+
+- [Coolify](https://coolify.io/)
+- [Deploy app servers close to your users · Fly](https://fly.io/)
+- [Railway](https://railway.app/)
