@@ -5,12 +5,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.
-Making your service accessible: an introduction - Service Manual - GOV.UK" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Research%20-%20Web%20Accessiblity%20Standards%20and%20Testing/" rel="canonical"/>
+<meta content="Designing Mobile Tables :: UXmatters" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Pattern%20-%20Designing%20Mobile%20Tables/" rel="canonical"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-8.5.7" name="generator"/>
-<title>UX Research Web Accessiblity Standards and Testing - Notes</title>
+<title>UX Pattern Designing Mobile Tables - Notes</title>
 <link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
 <link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -31,12 +30,10 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="UX Research   Web Accessiblity Standards and Testing" property="og:title"/>
-<meta content="UX Research   Web Accessiblity Standards and Testing" name="twitter:title"/>
-<meta content="Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.
-Making your service accessible: an introduction - Service Manual - GOV.UK" name="description"/>
-<meta content="Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.
-Making your service accessible: an introduction - Service Manual - GOV.UK" name="twitter:description"/>
+<meta content="UX Pattern   Designing Mobile Tables" property="og:title"/>
+<meta content="UX Pattern   Designing Mobile Tables" name="twitter:title"/>
+<meta content="Designing Mobile Tables :: UXmatters" name="description"/>
+<meta content="Designing Mobile Tables :: UXmatters" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -47,9 +44,6 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#accessibility-principles-guidelines">
-          Skip to content
-        </a>
 </div>
 <div data-md-component="announce">
 </div>
@@ -71,7 +65,7 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              UX Research   Web Accessiblity Standards and Testing
+              UX Pattern   Designing Mobile Tables
             
           </span>
 </div>
@@ -229,8 +223,9 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
         UX Pattern   Autocomplete select for multiple files
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         UX Pattern   Designing Mobile Tables
       </a>
 </li>
@@ -254,109 +249,10 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
         UX Research   Accessibility
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          UX Research   Web Accessiblity Standards and Testing
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../UX%20Research%20-%20Web%20Accessiblity%20Standards%20and%20Testing/">
         UX Research   Web Accessiblity Standards and Testing
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#accessibility-principles-guidelines">
-    Accessibility Principles &amp; Guidelines
-  </a>
-<nav aria-label="Accessibility Principles &amp; Guidelines" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#wcag">
-    WCAG
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#pour">
-    POUR
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-document-accessibility">
-    How to document accessibility
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#testing-for-accessibility">
-    Testing for accessibility
-  </a>
-<nav aria-label="Testing for accessibility" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#evaluation-tools">
-    Evaluation Tools
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#testing-with-assistive-technology">
-    Testing with Assistive Technology
-  </a>
-<nav aria-label="Testing with Assistive Technology" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#most-commonly-used-assistive-technology">
-    Most commonly used assistive technology
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-screen-readers">
-    How to use screen readers
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#resources">
-    Resources
-  </a>
-<nav aria-label="Resources" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-service-manual">
-    Gov Service Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-accessibility-blog">
-    Gov Accessibility Blog
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hmrc-accessibility-manual">
-    HMRC Accessibility Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bbc-news-accessibility">
-    BBC News Accessibility
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -478,201 +374,19 @@ Making your service accessible: an introduction - Service Manual - GOV.UK" name=
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#accessibility-principles-guidelines">
-    Accessibility Principles &amp; Guidelines
-  </a>
-<nav aria-label="Accessibility Principles &amp; Guidelines" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#wcag">
-    WCAG
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#pour">
-    POUR
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-document-accessibility">
-    How to document accessibility
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#testing-for-accessibility">
-    Testing for accessibility
-  </a>
-<nav aria-label="Testing for accessibility" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#evaluation-tools">
-    Evaluation Tools
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#testing-with-assistive-technology">
-    Testing with Assistive Technology
-  </a>
-<nav aria-label="Testing with Assistive Technology" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#most-commonly-used-assistive-technology">
-    Most commonly used assistive technology
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-screen-readers">
-    How to use screen readers
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#resources">
-    Resources
-  </a>
-<nav aria-label="Resources" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-service-manual">
-    Gov Service Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-accessibility-blog">
-    Gov Accessibility Blog
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hmrc-accessibility-manual">
-    HMRC Accessibility Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bbc-news-accessibility">
-    BBC News Accessibility
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>UX Research   Web Accessiblity Standards and Testing</h1>
-<blockquote>
-<p>Your service must be accessible to everyone who needs it, including services only used by public servants. You may be breaking the law if you do not make your service accessible.<br/>
-<a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction">Making your service accessible: an introduction - Service Manual - GOV.UK</a></p>
-</blockquote>
-<p>More info on the accessibilty regulations for public sector bodies: <a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">Understanding accessibility requirements for public sector bodies - GOV.UK</a></p>
-<h2 id="accessibility-principles-guidelines">Accessibility Principles &amp; Guidelines<a class="headerlink" href="#accessibility-principles-guidelines" title="Permanent link">¶</a></h2>
-<h3 id="wcag">WCAG<a class="headerlink" href="#wcag" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag">Understanding WCAG 2.1 - Service Manual - GOV.UK</a></li>
-<li>A checklist that distils WCAG into a checklist broken categorised under P.O.U.R principles: <a href="https://webaim.org/standards/wcag/checklist">WebAIM: WebAIM’s WCAG 2 Checklist</a></li>
-</ul>
-<h3 id="pour">POUR<a class="headerlink" href="#pour" title="Permanent link">¶</a></h3>
-<ol>
-<li>
-<p>Perceivable - Information and user interface components must be presentable to users in ways they can perceive.</p>
-<ul>
-<li>This means that users must be able to perceive the information being presented (it can’t be invisible to all of their senses)</li>
-</ul>
-</li>
-<li>
-<p>Operable - User interface components and navigation must be operable.</p>
-<ul>
-<li>This means that users must be able to operate the interface (the interface cannot require interaction that a user cannot perform)</li>
-</ul>
-</li>
-<li>
-<p>Understandable - Information and the operation of user interface must be understandable.</p>
-<ul>
-<li>This means that users must be able to understand the information as well as the operation of the user interface (the content or operation cannot be beyond their understanding)</li>
-</ul>
-</li>
-<li>
-<p>Robust - Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies.</p>
-<ul>
-<li>This means that users must be able to access the content as technologies advance (as technologies and user agents evolve, the content should remain accessible)</li>
-</ul>
-</li>
-</ol>
-<h2 id="how-to-document-accessibility">How to document accessibility<a class="headerlink" href="#how-to-document-accessibility" title="Permanent link">¶</a></h2>
-<p><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">Web: How to document the screen reader user experience - Accessibility, Your Team and You</a><br/>
-<a href="https://www.tech4planet.com/key-accessibility-laws-in-different-countries-wcag-2-1-section-508-dda-aoda-eqa-ama/">Key Accessibility Laws In Different Countries | WCAG 2.1 | Section 508 | DDA | AODA | EQA | AMA | Tech4Planet</a></p>
-<blockquote>
-<p>Using your visual as a starting point, we’ll take you step by step through how to document the screen reader UX introducing concepts along the way.  </p>
-</blockquote>
-<p><img alt="inlL|400" src="../../../screen-reader-ux-poster.png" title="inlL|400"/> </p>
-<h2 id="testing-for-accessibility">Testing for accessibility<a class="headerlink" href="#testing-for-accessibility" title="Permanent link">¶</a></h2>
-<h3 id="evaluation-tools">Evaluation Tools<a class="headerlink" href="#evaluation-tools" title="Permanent link">¶</a></h3>
-<p><a href="https://wave.webaim.org/">https://wave.webaim.org/</a></p>
-<h3 id="testing-with-assistive-technology">Testing with Assistive Technology<a class="headerlink" href="#testing-with-assistive-technology" title="Permanent link">¶</a></h3>
-<p>Gov service manual article on <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility">testing for accessibility</a>.</p>
-<h4 id="most-commonly-used-assistive-technology">Most commonly used assistive technology<a class="headerlink" href="#most-commonly-used-assistive-technology" title="Permanent link">¶</a></h4>
-<ul>
-<li><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM: Screen Reader User Survey <strong class="hash" id="9">9</strong> Results</a></li>
-</ul>
-<h4 id="how-to-use-screen-readers">How to use screen readers<a class="headerlink" href="#how-to-use-screen-readers" title="Permanent link">¶</a></h4>
-<ul>
-<li>How to use <a href="https://webaim.org/articles/voiceover/">VoiceOver for MacOS and iOS</a> on WebAIM</li>
-<li>
-<p>Introduces the basics of screen reader technologies (JAWS, NVDA &amp; VoiceOver) + tips on how to test a service/site with them. <br/>
-<a href="https://accessibility-training.herokuapp.com/">https://accessibility-training.herokuapp.com/</a></p>
-</li>
-<li>
-<p>BBC News Accessibility </p>
-<ul>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/nvda-windows.html">NVDA for WIndows testing steps</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/jaws-windows.html">JAWS for Windows testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/dragon-windows.html">Dragon for Windows testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-mac.html">VoiceOver for Mac testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-ios.html">VoiceOver on iPhone testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/talkback-android.html">TalkBack on Android testing steps - Accessibility, Your Team and You</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
-<h3 id="gov-service-manual">Gov Service Manual<a class="headerlink" href="#gov-service-manual" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service">Accessibility and assisted digital</a><ul>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility">Testing for accessibility</a></li>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit">Getting an accessibility audit</a> </li>
-</ul>
-</li>
-<li><a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">Understanding accessibility requirements for public sector bodies</a> </li>
-</ul>
-<h3 id="gov-accessibility-blog">Gov Accessibility Blog<a class="headerlink" href="#gov-accessibility-blog" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/">Assistive technology tools you can test with at no cost - Accessibility in government </a></li>
-</ul>
-<h3 id="hmrc-accessibility-manual">HMRC Accessibility Manual<a class="headerlink" href="#hmrc-accessibility-manual" title="Permanent link">¶</a></h3>
-<p>Introduces the basics of screen reader technologies (JAWS, NVDA &amp; VoiceOver) + tips on how to test a service/site with them.<br/>
-<a href="https://accessibility-training.herokuapp.com/">https://accessibility-training.herokuapp.com/</a><br/>
-(username and password in Enpass)</p>
-<h3 id="bbc-news-accessibility">BBC News Accessibility<a class="headerlink" href="#bbc-news-accessibility" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/">Accessibility, News and You</a> - Homepage</li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html">Accessibility Design Review</a></li>
-</ul>
+<h1>UX Pattern   Designing Mobile Tables</h1>
+<p><a href="https://www.uxmatters.com/mt/archives/2020/07/designing-mobile-tables.php">Designing Mobile Tables :: UXmatters</a></p>
+<p>This above article states this is an anti-pattern:<br/>
+<img alt="https://www.uxmatters.com/mt/archives/2020/07/images/Hoober-MobileTables-Figure1.png" src="https://www.uxmatters.com/mt/archives/2020/07/images/Hoober-MobileTables-Figure1.png"/></p>
+<p><a href="https://uxdesign.cc/when-you-cannot-runaway-of-using-tables-on-mobile-630923bcea72">When you cannot run away from using tables on mobile | by Cíntia Antunes | UX Collective</a></p>
+<p>Whereas this article suggests it’s aboslutely fine:<br/>
+<img alt="https://miro.medium.com/max/720/1*SzynyMj4-8QlrHimAwN_Yw@2x.png" src="https://miro.medium.com/max/720/1*SzynyMj4-8QlrHimAwN_Yw@2x.png"/></p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -729,7 +443,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </main>
 <footer class="md-footer">
 <nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: UX Research   Accessibility" class="md-footer__link md-footer__link--prev" href="../UX%20Research%20-%20Accessibility/" rel="prev">
+<a aria-label="Previous: UX Pattern   Autocomplete select for multiple files" class="md-footer__link md-footer__link--prev" href="../UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
 </div>
@@ -738,17 +452,17 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <span class="md-footer__direction">
                 Previous
               </span>
-              UX Research   Accessibility
+              UX Pattern   Autocomplete select for multiple files
             </div>
 </div>
 </a>
-<a aria-label="Next: Terraforming for Urbanists   Heise" class="md-footer__link md-footer__link--next" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/" rel="next">
+<a aria-label="Next: UX Pattern   Focus" class="md-footer__link md-footer__link--next" href="../UX%20Pattern%20-%20Focus/" rel="next">
 <div class="md-footer__title">
 <div class="md-ellipsis">
 <span class="md-footer__direction">
                 Next
               </span>
-              Terraforming for Urbanists   Heise
+              UX Pattern   Focus
             </div>
 </div>
 <div class="md-footer__button md-icon">
