@@ -37,15 +37,18 @@ More info on the accessibilty regulations for public sector bodies: [Understandi
  
 ![[screen-reader-ux-poster.png|inlL|400]] 
 
-
 # Testing for accessibility
 
+## Evaluation Tools
+https://wave.webaim.org/
+
+## Testing with Assistive Technology
 Gov service manual article on [testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility).
 
-## Most commonly used assistive technology
+### Most commonly used assistive technology
 - [WebAIM: Screen Reader User Survey #9 Results](https://webaim.org/projects/screenreadersurvey9/)
 
-## How to use screen readers
+### How to use screen readers
 - How to use [VoiceOver for MacOS and iOS](https://webaim.org/articles/voiceover/) on WebAIM
 - Introduces the basics of screen reader technologies (JAWS, NVDA & VoiceOver) + tips on how to test a service/site with them. 
 	https://accessibility-training.herokuapp.com/
