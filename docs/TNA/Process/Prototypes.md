@@ -15,3 +15,7 @@ Prototypes are used for review, testing and dev integration.
 - [Coolify](https://coolify.io/)
 - [Deploy app servers close to your users · Fly](https://fly.io/)
 - [Railway](https://railway.app/)
+
+### Railway 
+
+Cannot set node version therefore current build fails. The latest GDS Prototyping Kit is fine, meaning we should update our code base. 

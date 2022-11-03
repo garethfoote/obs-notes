@@ -53,7 +53,6 @@ https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text
 - [AccessibilityAssociation - Certified Professional in Accessibility Core Competencies (CPACC)](https://www.accessibilityassociation.org/s/certified-professional)
 
 # Resources 
-
 ## Books
 
 - [ ] [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag #read #book
@@ -61,7 +60,6 @@ https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text
 - [ ] [Giving a damn about accessibility](https://www.accessibility.uxdesign.cc/) By Sheri Byrne-Haber, CPACC. #read #book
 
 ## Podcast or YT
-
  - [ ] [Digital Accessibility](https://www.youtube.com/channel/UCAUiv64ScbHSJYDrkqMZ_ww/videos) including [Reginé Gilbert talk](https://www.youtube.com/watch?v=WalORGTANxA) #playlist
  - [ ] [AXSChat](https://www.youtube.com/c/AxschatCommunity/videos) inlcuding [Stefanie Walters talk](https://www.youtube.com/watch?v=3rbYvyvpaJ0) #playlist
  - [ ] [Reginé Gilbert - Accessibility & Sustainability](https://www.youtube.com/watch?v=PkglIyugbHM) #playlist
@@ -95,7 +93,6 @@ https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html
 ## Hiding content
 https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
 https://gomakethings.com/hidden-content-for-better-a11y/
-
 
 ## Accessible hamburger menus
 
