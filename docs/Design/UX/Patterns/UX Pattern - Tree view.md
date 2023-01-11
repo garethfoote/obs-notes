@@ -1,6 +1,6 @@
 ---
 share: true
-category: Design/UX
+category: Design/UX/Patterns
 ---
 
 [MDN Web Docs - ARIA: tree role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role) 
@@ -25,5 +25,7 @@ Often treeviews are used for complex nested navigation but this is not recommend
 [PatternFly Design System (from Red Hat) - Design Guidelines for tree view](https://www.patternfly.org/2021.16/components/tree-view/design-guidelines)
 
 #### Other Links
-http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/ (2013)
-https://mdbootstrap.com/docs/standard/plugins/tree-view/ 
+[(Not so) Simple ARIA Tree Views and Screen Readers | Articles | Accessible Culture](http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/) (2013)
+[Bootstrap Treeview - examples & tutorial](https://mdbootstrap.com/docs/standard/plugins/tree-view/) 
+
+[Clarity Design System - Documentation - Tree View](https://clarity.design/documentation/tree-view#checkbox-tree)

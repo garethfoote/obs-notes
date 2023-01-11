@@ -8,6 +8,46 @@ Design a tree view implementation for a file hierachy display and selection. Use
 # UX Research
 - [[UX Pattern - Tree view]]
 
+
+# To Dos
+
+Mega bug
+NVDA cannot claim focus when there is a event listener on a child element. i.e. the expander buttons. The event could be on the entire list item instead of the button, which seems to work in the codepen (aria patterns) example. This would cause problems for the checkbox/multi-select version because the same click cannot both open and select a folder. 
+
+Bugs
+- [ ] Remove console.logs
+- [ ] Fix keyboard navigation
+- [ ]  [TDR-2799](https://national-archives.atlassian.net/browse/TDR-2799) - tabindex
+	- Slightly confused by the instantiation - Contructor collects the first and then all the trees on the page
+- [ ]  [TDR-2802](https://national-archives.atlassian.net/browse/TDR-2802) `aria-labelledby`
+
+Improvements
+- [ ] Children cloning when swapping out inputs⏫ 
+- [ ] hidden input rendered so form still submits⏫ 
+- [ ] Remove `aria-checked` (doesn't exist on tree view)⏫ 
+- [ ] Do not include the `aria-selected` attribute on tree items that are not selectable.⏫  
+
+- [ ] querySelectors working on document level instead of scoped to the tree element
+- [x] ~~`replaceCheckboxWithSpans` more generic name~~
+- [ ] name of InputTypes - singular vs plural
+- [ ] Parametize the input[name=???]
+
+Library usability
+- [ ] Cannot import TS into prototype currently
+- [ ] Can we use nunjucks tpls in prototype?
+
+GDS alignment
+- [ ] Should we use HTML attributes for customisation as per GDS components instead of params being passed to `initFormListeners()` - the `aria-multiselectable` attribute could be used here
+
+Design
+- [ ] When a radio button is selected inside folder we need a visual cue to indicate when it's closed that it has active content
+- [ ] focus on radio buttons isn't using GDS yellow surround
+
+
+
+
+
+
 # Accessibility Features
 - [ ] (Suggested) Add count vs selected count to each parent node?
 - [ ] Auto focus on first open item

@@ -20,7 +20,7 @@ Reading a lot about the accessibility of the [[UX Pattern - Tree view|🌳tree v
 - [[UX Research - Accessibility]]
 
 ## Accessiblity & Testing
-- [[UX Research - Web Accessiblity Standards and Testing]]
+- [[UX Research - Accessiblity Standards]]
 
 ## Sprints & Tickets
 - [[TDR-2397 Tree View]]

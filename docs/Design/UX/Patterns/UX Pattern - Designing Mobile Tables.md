@@ -1,6 +1,6 @@
 ---
 share: true
-category: Design/UX
+category: Design/UX/Patterns
 ---
 
 [Designing Mobile Tables :: UXmatters](https://www.uxmatters.com/mt/archives/2020/07/designing-mobile-tables.php)

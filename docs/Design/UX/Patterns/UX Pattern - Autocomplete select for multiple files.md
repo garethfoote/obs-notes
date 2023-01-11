@@ -1,6 +1,6 @@
 ---
 share: true
-category: Design/UX
+category: Design/UX/Patterns
 ---
 
 There are various cases when a select element with many options can be quite unweildy to use. Scrolling or tabbing through a list of hundreds of items is time consuming and challenging. 
