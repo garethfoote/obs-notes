@@ -8,11 +8,13 @@
 <meta content="Update in 2022
 Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" name="description"/>
 <link href="https://garethfoote.github.io/obs-notes/Design/Data-Viz/Data%20Visualisation/" rel="canonical"/>
+<link href="../Data%20Visualisation%20-%20References/" rel="prev"/>
+<link href="../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/" rel="next"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.3" name="generator"/>
 <title>Data Visualisation - Notes</title>
-<link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/main.6b71719e.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
@@ -53,7 +55,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
 <a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -147,14 +149,14 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
 <a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1">
+<label aria-expanded="true" class="md-nav__link" for="__nav_1" tabindex="0">
           Design
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -166,7 +168,7 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_1">
+<label aria-expanded="true" class="md-nav__link" for="__nav_1_1" tabindex="0">
           Data Viz
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -191,8 +193,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_2">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_2" tabindex="0">
           UI
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -211,8 +213,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3" id="__nav_1_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_3">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3" id="__nav_1_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_3" tabindex="0">
           UX
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -222,40 +224,115 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3_1" id="__nav_1_3_1" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_3_1" tabindex="0">
+          Accessibility
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Accessibility" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_3_1">
+<span class="md-nav__icon md-icon"></span>
+          Accessibility
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility%20Audit/">
+        UX Research   Accessibility Audit
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility%20Documentation/">
+        How to document accessibility
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility%20Patterns/">
+        UX Research   Accessibility Patterns
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility%20Resources%20%26%20Learning/">
+        Resources
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility%20Testing/">
+        UX Research   Accessibility Testing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessibility/">
+        Inbox / To Read
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Accessibility/UX%20Research%20-%20Accessiblity%20Standards/">
+        UX Research   Accessiblity Standards
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3_2" id="__nav_1_3_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_3_2" tabindex="0">
+          Patterns
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Patterns" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Patterns
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
         UX Pattern   Autocomplete select for multiple files
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Buttons%20%26%20Links/">
+        Links as Buttons
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Conditional%20Reveal/">
+        UX Pattern   Conditional Reveal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
         UX Pattern   Designing Mobile Tables
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Pattern%20-%20Focus/">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Focus/">
         UX Pattern   Focus
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Pattern%20-%20Tree%20view/">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Hint%20text/">
+        UX Pattern   Hint text
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20SVGs/">
+        UX Pattern   SVGs
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Pattern%20-%20Tree%20view/">
         UX Pattern   Tree view
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Patterns%20-%20SVGs/">
-        UX Patterns   SVGs
+<a class="md-nav__link" href="../../UX/Patterns/UX%20Patterns%20-%20Tables/">
+        UX Patterns   Tables
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Research%20-%20Accessibility/">
-        UX Research   Accessibility
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../UX/UX%20Research%20-%20Web%20Accessiblity%20Standards%20and%20Testing/">
-        UX Research   Web Accessiblity Standards and Testing
-      </a>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -264,8 +341,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_2" tabindex="0">
           Research
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -276,8 +353,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_1" id="__nav_2_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_1">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_1" id="__nav_2_1" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_2_1" tabindex="0">
           Anthropocene
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -299,8 +376,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3" tabindex="0">
           TNA
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -321,8 +398,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_3">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3_3" tabindex="0">
           Process
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -346,8 +423,8 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_4">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3_4" tabindex="0">
           Sprints
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -383,7 +460,6 @@ Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?" nam
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Data Visualisation</h1>
 <p><strong>Update in 2022</strong><br/>
 <a href="https://www.youtube.com/watch?v=0hVnTk-2KLY">Andy Kirk—Outlier 2022—The 2022 Data Viz Healthcheck: How’s it Going?</a></p>
 <p><strong>Writing</strong><br/>
@@ -450,34 +526,6 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
           </a>
 </main>
 <footer class="md-footer">
-<nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: Data Visualisation   References" class="md-footer__link md-footer__link--prev" href="../Data%20Visualisation%20-%20References/" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Previous
-              </span>
-              Data Visualisation   References
-            </div>
-</div>
-</a>
-<a aria-label="Next: Design Resources, Repos &amp; Inspiration" class="md-footer__link md-footer__link--next" href="../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
-              Design Resources, Repos &amp; Inspiration
-            </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
-</div>
-</a>
-</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
@@ -489,8 +537,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-<script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.ba449ae6.min.js"></script>
 <script src="../../../assets/js/mathjax.js"></script>
 <script src="../../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

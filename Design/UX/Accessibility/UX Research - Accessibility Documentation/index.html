@@ -5,38 +5,37 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="A great little Halloween game using :focus.
-Hocus :focus — Level 1" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/UX/UX%20Pattern%20-%20Focus/" rel="canonical"/>
+<meta content="Obsidian Notes - Writing in public" name="description"/>
+<link href="https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/UX%20Research%20-%20Accessibility%20Documentation/" rel="canonical"/>
+<link href="../UX%20Research%20-%20Accessibility%20Audit/" rel="prev"/>
+<link href="../UX%20Research%20-%20Accessibility%20Patterns/" rel="next"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-8.5.7" name="generator"/>
-<title>UX Pattern Focus - Notes</title>
-<link href="../../../assets/stylesheets/main.20d9efc8.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-9.0.3" name="generator"/>
+<title>How to document accessibility - Notes</title>
+<link href="../../../../assets/stylesheets/main.6b71719e.min.css" rel="stylesheet"/>
+<link href="../../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/blog.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/grid.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
-<link href="../../../assets/css/template/utils.css" rel="stylesheet"/>
-<link href="../../../assets/css/admonition.css" rel="stylesheet"/>
-<link href="../../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../../assets/css/customization.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../../assets/css/template/blog.css" rel="stylesheet"/>
+<link href="../../../../assets/css/template/grid.css" rel="stylesheet"/>
+<link href="../../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
+<link href="../../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../../../assets/css/template/utils.css" rel="stylesheet"/>
+<link href="../../../../assets/css/admonition.css" rel="stylesheet"/>
+<link href="../../../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../../../assets/css/customization.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="UX Pattern   Focus" property="og:title"/>
-<meta content="UX Pattern   Focus" name="twitter:title"/>
-<meta content="A great little Halloween game using :focus.
-Hocus :focus — Level 1" name="description"/>
-<meta content="A great little Halloween game using :focus.
-Hocus :focus — Level 1" name="twitter:description"/>
+<meta content="How to document accessibility" property="og:title"/>
+<meta content="How to document accessibility" name="twitter:title"/>
+<meta content="Obsidian Notes - Writing in public" name="og:description"/>
+<meta content="Obsidian Notes - Writing in public" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" property="og:image"/>
 <meta content="https://garethfoote.github.io/obs-notes/assets/meta/SEO.png" name="twitter:image"/>
@@ -47,13 +46,16 @@ Hocus :focus — Level 1" name="twitter:description"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
+<a class="md-skip" href="#how-to-document-accessibility">
+          Skip to content
+        </a>
 </div>
 <div data-md-component="announce">
 </div>
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -68,7 +70,7 @@ Hocus :focus — Level 1" name="twitter:description"/>
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              UX Pattern   Focus
+              How to document accessibility
             
           </span>
 </div>
@@ -120,17 +122,17 @@ Hocus :focus — Level 1" name="twitter:description"/>
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../Data-Viz/Data%20Visualisation%20-%20References/">
+<a class="md-tabs__link md-tabs__link--active" href="../../../Data-Viz/Data%20Visualisation%20-%20References/">
         Design
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-tabs__link" href="../../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Research
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../TNA/Home/">
+<a class="md-tabs__link" href="../../../../TNA/Home/">
         TNA
       </a>
 </li>
@@ -146,15 +148,15 @@ Hocus :focus — Level 1" name="twitter:description"/>
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1">
+<label aria-expanded="true" class="md-nav__link" for="__nav_1" tabindex="0">
           Design
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -165,8 +167,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_1">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_1" tabindex="0">
           Data Viz
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -177,12 +179,12 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../Data-Viz/Data%20Visualisation%20-%20References/">
+<a class="md-nav__link" href="../../../Data-Viz/Data%20Visualisation%20-%20References/">
         Data Visualisation   References
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../Data-Viz/Data%20Visualisation/">
+<a class="md-nav__link" href="../../../Data-Viz/Data%20Visualisation/">
         Data Visualisation
       </a>
 </li>
@@ -190,8 +192,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_2">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_2" tabindex="0">
           UI
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -202,7 +204,7 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
+<a class="md-nav__link" href="../../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
         Design Resources, Repos &amp; Inspiration
       </a>
 </li>
@@ -211,7 +213,7 @@ Hocus :focus — Level 1" name="twitter:description"/>
 </li>
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
 <input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" id="__nav_1_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_1_3">
+<label aria-expanded="true" class="md-nav__link" for="__nav_1_3" tabindex="0">
           UX
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -221,41 +223,133 @@ Hocus :focus — Level 1" name="twitter:description"/>
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_1" id="__nav_1_3_1" type="checkbox"/>
+<label aria-expanded="true" class="md-nav__link" for="__nav_1_3_1" tabindex="0">
+          Accessibility
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Accessibility" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_3_1">
+<span class="md-nav__icon md-icon"></span>
+          Accessibility
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
-        UX Pattern   Autocomplete select for multiple files
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
-        UX Pattern   Designing Mobile Tables
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Audit/">
+        UX Research   Accessibility Audit
       </a>
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          How to document accessibility
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        UX Pattern   Focus
+        How to document accessibility
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-document-accessibility">
+    How to document accessibility
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Patterns/">
+        UX Research   Accessibility Patterns
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Pattern%20-%20Tree%20view/">
-        UX Pattern   Tree view
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Resources%20%26%20Learning/">
+        Resources
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Patterns%20-%20SVGs/">
-        UX Patterns   SVGs
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Testing/">
+        UX Research   Accessibility Testing
       </a>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../UX%20Research%20-%20Accessibility/">
-        UX Research   Accessibility
+        Inbox / To Read
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Web%20Accessiblity%20Standards%20and%20Testing/">
-        UX Research   Web Accessiblity Standards and Testing
+<a class="md-nav__link" href="../UX%20Research%20-%20Accessiblity%20Standards/">
+        UX Research   Accessiblity Standards
       </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3_2" id="__nav_1_3_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_1_3_2" tabindex="0">
+          Patterns
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Patterns" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_1_3_2">
+<span class="md-nav__icon md-icon"></span>
+          Patterns
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
+        UX Pattern   Autocomplete select for multiple files
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Buttons%20%26%20Links/">
+        Links as Buttons
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Conditional%20Reveal/">
+        UX Pattern   Conditional Reveal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
+        UX Pattern   Designing Mobile Tables
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Focus/">
+        UX Pattern   Focus
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Hint%20text/">
+        UX Pattern   Hint text
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20SVGs/">
+        UX Pattern   SVGs
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Pattern%20-%20Tree%20view/">
+        UX Pattern   Tree view
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Patterns/UX%20Patterns%20-%20Tables/">
+        UX Patterns   Tables
+      </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -264,8 +358,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_2" tabindex="0">
           Research
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -276,8 +370,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_1" id="__nav_2_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_2_1">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_1" id="__nav_2_1" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_2_1" tabindex="0">
           Anthropocene
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -288,7 +382,7 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-nav__link" href="../../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Terraforming for Urbanists   Heise
       </a>
 </li>
@@ -299,8 +393,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3" tabindex="0">
           TNA
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -311,18 +405,18 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Home/">
+<a class="md-nav__link" href="../../../../TNA/Home/">
         Home
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/">
+<a class="md-nav__link" href="../../../../TNA/Show%20%26%20Tell%2071%20-%20Hierarchical%20Tree%20View/">
         Show &amp; Tell 71   Hierarchical Tree View
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_3">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3_3" tabindex="0">
           Process
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -333,12 +427,12 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Process/Design%20Documentation%20%26%20Change%20Tracking/">
+<a class="md-nav__link" href="../../../../TNA/Process/Design%20Documentation%20%26%20Change%20Tracking/">
         Design Documentation &amp; Change Tracking
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Process/Prototypes/">
+<a class="md-nav__link" href="../../../../TNA/Process/Prototypes/">
         Prototypes
       </a>
 </li>
@@ -346,8 +440,8 @@ Hocus :focus — Level 1" name="twitter:description"/>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3_4">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
+<label aria-expanded="false" class="md-nav__link" for="__nav_3_4" tabindex="0">
           Sprints
           <span class="md-nav__icon md-icon"></span>
 </label>
@@ -358,7 +452,7 @@ Hocus :focus — Level 1" name="twitter:description"/>
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../TNA/Sprints/TDR-2397%20Tree%20View/">
+<a class="md-nav__link" href="../../../../TNA/Sprints/TDR-2397%20Tree%20View/">
         TDR 2397 Tree View
       </a>
 </li>
@@ -377,20 +471,31 @@ Hocus :focus — Level 1" name="twitter:description"/>
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#how-to-document-accessibility">
+    How to document accessibility
+  </a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>UX Pattern   Focus</h1>
-<p>A great little Halloween game using <code>:focus</code>.<br/>
-<a href="https://focus.hteumeuleu.com/">Hocus :focus — Level 1</a></p>
-<ul>
-<li><a href="https://noti.st/ericwbailey/TcMJFP/if-it-s-interactive-it-needs-a-focus-style#spQlg5h">If it’s interactive, it needs a focus style</a></li>
-<li><a href="https://www.sarasoueidan.com/blog/focus-indicators/">A guide to designing accessible, WCAG-compliant focus indicators – Sara Soueidan, inclusive design engineer</a></li>
-<li><a href="https://adrianroselli.com/2017/02/avoid-default-browser-focus-styles.html">Avoid Default Browser Focus Styles — Adrian Roselli</a></li>
-</ul>
+<h1>How to document accessibility</h1>
+<h2 id="how-to-document-accessibility">How to document accessibility<a class="headerlink" href="#how-to-document-accessibility" title="Permanent link">¶</a></h2>
+<p><a href="https://bbc.github.io/accessibility-news-and-you/guides/screen-reader-ux.html">Web: How to document the screen reader user experience - Accessibility, Your Team and You</a><br/>
+<a href="https://www.tech4planet.com/key-accessibility-laws-in-different-countries-wcag-2-1-section-508-dda-aoda-eqa-ama/">Key Accessibility Laws In Different Countries | WCAG 2.1 | Section 508 | DDA | AODA | EQA | AMA | Tech4Planet</a></p>
+<blockquote>
+<p>Using your visual as a starting point, we’ll take you step by step through how to document the screen reader UX introducing concepts along the way.  </p>
+</blockquote>
+<p><img alt="inlL|400" src="../../../../screen-reader-ux-poster.png" title="inlL|400"/> </p>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -400,7 +505,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 3, 2022</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 11, 2023</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -446,34 +551,6 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
           </a>
 </main>
 <footer class="md-footer">
-<nav aria-label="Footer" class="md-footer__inner md-grid">
-<a aria-label="Previous: UX Pattern   Designing Mobile Tables" class="md-footer__link md-footer__link--prev" href="../UX%20Pattern%20-%20Designing%20Mobile%20Tables/" rel="prev">
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
-</div>
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Previous
-              </span>
-              UX Pattern   Designing Mobile Tables
-            </div>
-</div>
-</a>
-<a aria-label="Next: UX Pattern   Tree view" class="md-footer__link md-footer__link--next" href="../UX%20Pattern%20-%20Tree%20view/" rel="next">
-<div class="md-footer__title">
-<div class="md-ellipsis">
-<span class="md-footer__direction">
-                Next
-              </span>
-              UX Pattern   Tree view
-            </div>
-</div>
-<div class="md-footer__button md-icon">
-<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
-</div>
-</a>
-</nav>
 <div class="md-footer-meta md-typeset">
 <div class="md-footer-meta__inner md-grid">
 <div class="md-copyright">
@@ -485,12 +562,12 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
-<script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
-<script src="../../../assets/js/mathjax.js"></script>
-<script src="../../../assets/js/utils.js"></script>
+<script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../../assets/javascripts/bundle.ba449ae6.min.js"></script>
+<script src="../../../../assets/js/mathjax.js"></script>
+<script src="../../../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="../../../assets/js/tooltipster.bundle.js"></script>
+<script src="../../../../assets/js/tooltipster.bundle.js"></script>
 </body>
 </html>
