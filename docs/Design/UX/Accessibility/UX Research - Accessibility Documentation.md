@@ -1,6 +1,7 @@
 ---
 share: true
 category: Design/UX/Accessibility
+title: UX Research - Accessibility Resources & Learning
 ---
 # How to document accessibility
 
