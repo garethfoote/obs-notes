@@ -3,7 +3,7 @@ share: true
 category: Design/UX/Accessibility
 ---
 
-# Inbox / To Read
+## Inbox / To Read
 
 - [The difference between keyboard and screen reader navigation](https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/)
 - [Browsing with a keyboard](https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/)
