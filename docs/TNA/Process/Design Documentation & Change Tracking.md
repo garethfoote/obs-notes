@@ -3,14 +3,13 @@ share: true
 category: TNA/Process 
 ---
 
+
 Exploring options for documenting designs and tracking design changes. 
 
 **Notes and takeaways**
 - Currently we are missing error state content in a lot of places
 - Some accessbility documentation also: focus order, landmarks, document announced content.
 - How do we make use of user flows and *screen flows*? 
-
----
 
 A lot of this is lifted from the [excellent article by Stefanie Walter](https://stephaniewalter.design/blog/a-designers-guide-to-documenting-accessibility-user-interactions/). 
 
@@ -77,3 +76,4 @@ Detailed notes on accessibility. This example is from [Karen Hawkins](https://ww
 - [How to Jira for designers](https://medium.com/designing-atlassian/how-to-jira-for-designers-e37c354aa078)
 - [How to write design specifications](https://northell.design/blog/how-to-write-the-design-specifications-quick-guide)
 - [Using Jira as a research repo](https://uxdesign.cc/using-jira-as-a-research-repository-pros-cons-and-how-to-eb112936c1e8)
+- [Why and how we create design histories - DfE Digital, Data and Technology](https://dfedigital.blog.gov.uk/2020/09/01/design-history/)
