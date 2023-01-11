@@ -1,6 +1,7 @@
 ---
 share: true
 category: Design/UX/Patterns
+title: UX Patterns - Buttons & Links
 ---
 # Links as Buttons
 
