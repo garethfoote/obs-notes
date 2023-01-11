@@ -3,7 +3,7 @@ share: true
 category: Design/UX/Accessibility
 ---
 
-# Resources 
+
 ## Books
 
 - [ ] [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag #read #book
