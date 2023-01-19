@@ -1,9 +1,10 @@
 ---
 share: true
 category: Design/UX/Accessibility
+title: UX Research - Accessibility Resources & Learning
 ---
 
-
+# Resources
 ## Books
 
 - [ ] [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag #read #book
@@ -28,9 +29,12 @@ category: Design/UX/Accessibility
 	- UCL is also the home to the [disability innovation hub](https://www.disabilityinnovation.com/)
 - [Educational Assistive Technology MSc | University of Dundee](https://www.dundee.ac.uk/postgraduate/educational-assistive-technology)
 ## Online courses
+- [Digital Accessibility Foundations - Free Online Course | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/courses/foundations-course/#who-the-course-is-for)
 - [Web Accessibility | What is Web Accessibility? | Udacity Free Courses](https://www.udacity.com/course/web-accessibility--ud891)
 - [Introduction to Web Accessibility | edX](https://www.edx.org/course/web-accessibility-introduction)
 - [Learn Accessibility](https://web.dev/learn/accessibility/)
+- [Making Your JS Web Apps More Accessible | Frontend Masters](https://frontendmasters.com/courses/javascript-accessibility/)
+
 ## Industry Certification
 - [AccessibilityAssociation - Web Accessibility Specialist Certification (WAS)](https://www.accessibilityassociation.org/s/wascertification)
 - [AccessibilityAssociation Certified Professional Web Accessibility (CPWA)](https://www.accessibilityassociation.org/s/certified-professional-web-accessibility)
