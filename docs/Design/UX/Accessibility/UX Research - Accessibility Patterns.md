@@ -9,8 +9,10 @@ category: Design/UX/Accessibility
 - [[UX Pattern - SVGs]]
 - [[UX Pattern - Hint text]]
 - [[UX Pattern - Buttons & Links]]
-- [[UX Patterns - Tables]]
-- [[UX Patterns - Tables]]
+- [[UX Pattern - Tables]]
+- [[UX Pattern - Designing Mobile Tables]]
+- [[UX Pattern - Dynamic search results]]
+
 
 ## Menus vs Nav
 

@@ -11,6 +11,7 @@ More info on the accessibilty regulations for public sector bodies: [Understandi
 # Accessibility Principles & Guidelines
 
 ## WCAG 
+- [WCAG 2 Overview | Web Accessibility Initiative (WAI) | W3C](https://www.w3.org/WAI/standards-guidelines/wcag/)
 - [Understanding WCAG 2.1 - Service Manual - GOV.UK](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
 - A checklist that distils WCAG into a checklist broken categorised under P.O.U.R principles: [WebAIM: WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
 
