@@ -9,11 +9,21 @@ category: Design/UX/Patterns
 > - JS expanding 
 > - Othe best practices
 
+
+# Inbox
+
+- https://uxdesign.cc/designing-a-complex-table-for-mobile-consumption-nom-7472f7b11fe6
+
+- [Designing a complex table for mobile consumption (nom) | by Joe Winter | UX Collective](https://uxdesign.cc/designing-a-complex-table-for-mobile-consumption-nom-7472f7b11fe6)
+
+- [X-Gov Slack: Just wondering if anyone has recently worked on incorporating responsive table code into a [gov.uk](http://gov.uk/) service, and if so are you happy to share any examples?](https://ukgovernmentdigital.slack.com/archives/C6DMEH5R6/p1673447848782569)
+- The above leads to a discussion here:
+	- [Table · Issue #61 · alphagov/govuk-design-system-backlog · GitHub](https://github.com/alphagov/govuk-design-system-backlog/issues/61)
+	- [Responsive table layout - Matt Smith](https://allthingssmitty.com/2016/10/03/responsive-table-layout/#gettin-responsive)
+
 # Resources
 
 - Codepen: [Accessible table with expandable row](https://codepen.io/garethfoote/pen/WNKNXKM)
-
-
 - [[PREVIEW] Multi-directional Tables • Tables • WAI Web Accessibility Tutorials](https://www.w3.org/WAI/EO/Drafts/tutorials/tables/multi-directional/)
 - [[PREVIEW] Irregular Tables • Tables • WAI Web Accessibility Tutorials](https://www.w3.org/WAI/EO/Drafts/tutorials/tables/irregular/)
 - [[PREVIEW] Multi-level Tables • Tables • WAI Web Accessibility Tutorials](https://www.w3.org/WAI/EO/Drafts/tutorials/tables/multi-level/)

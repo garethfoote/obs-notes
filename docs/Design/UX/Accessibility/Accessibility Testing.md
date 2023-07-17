@@ -6,9 +6,12 @@ category: Design/UX/Accessibility
 - [5 takeaways from screen reader usability interviews - Jess Budd](https://jessbudd.com/blog/screen-reader-usability-testing-observations/)
 
 ## Evaluation Tools
-https://wave.webaim.org/
 
-## Testing with Assistive Technology
+### Browser extensions
+- [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
+- [Accessibility Insights for Web](https://accessibilityinsights.io/docs/web/overview/)
+- [axe DevTools - Web Accessibility Testing](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
+## Guidance for testing with Assistive Technology
 Gov service manual article on [testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility).
 
 ### Most commonly used assistive technology
@@ -20,7 +23,7 @@ Gov service manual article on [testing for accessibility](https://www.gov.uk/ser
 	https://accessibility-training.herokuapp.com/
 
 - BBC News Accessibility 
-	- [NVDA for WIndows testing steps](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/nvda-windows.html)
+	- [NVDA for Windows testing steps](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/nvda-windows.html)
 	- [JAWS for Windows testing steps - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/jaws-windows.html)
 	- [Dragon for Windows testing steps - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/dragon-windows.html)
 	- [VoiceOver for Mac testing steps - Accessibility, Your Team and You](https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-mac.html)

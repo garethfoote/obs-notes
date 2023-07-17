@@ -11,7 +11,7 @@ category: Design/UX/Accessibility
 - [[UX Pattern - Buttons & Links]]
 - [[UX Pattern - Tables]]
 - [[UX Pattern - Designing Mobile Tables]]
-- [[UX Pattern - Dynamic search results]]
+- [[UX Pattern - Search]]
 
 
 ## Menus vs Nav

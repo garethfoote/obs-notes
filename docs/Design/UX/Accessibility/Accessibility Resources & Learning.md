@@ -10,6 +10,7 @@ title: UX Research - Accessibility Resources & Learning
 - [ ] [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag #read #book
 - [ ] [Inclusive Design for a Digital World - Designing with Accessibility in Mind](https://reginegilbert.com/inclusive-design-book)  by Regine Gilbert #read #book
 - [ ] [Giving a damn about accessibility](https://www.accessibility.uxdesign.cc/) By Sheri Byrne-Haber, CPACC. #read #book
+- [ ] Agile Accessibility Handbook
 
 ## Podcast or YT
  - [ ] [Digital Accessibility](https://www.youtube.com/channel/UCAUiv64ScbHSJYDrkqMZ_ww/videos) including [Reginé Gilbert talk](https://www.youtube.com/watch?v=WalORGTANxA) #playlist

@@ -3,6 +3,11 @@ share: true
 category: Design/UX/Accessibility
 ---
 
+- [A Definitive Guide On How To Perform A Web Accessibility Audit • DigitalA11Y](https://www.digitala11y.com/a-definitive-guide-on-how-to-perform-a-web-accessibility-audit/)
+
+---
+
+
 - [GitHub - dequelabs/axe-core: Accessibility engine for automated Web UI testing](https://github.com/dequelabs/axe-core)
 - [axe Browser Extensions for Accessibility Testing | Deque](https://www.deque.com/axe/browser-extensions/)
 	- [Chrome Web Store - Extensions](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)

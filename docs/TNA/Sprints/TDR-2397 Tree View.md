@@ -22,10 +22,10 @@ Bugs
 - [ ]  [TDR-2802](https://national-archives.atlassian.net/browse/TDR-2802) `aria-labelledby`
 
 Improvements
-- [ ] Children cloning when swapping out inputs⏫ 
-- [ ] hidden input rendered so form still submits⏫ 
-- [ ] Remove `aria-checked` (doesn't exist on tree view)⏫ 
-- [ ] Do not include the `aria-selected` attribute on tree items that are not selectable.⏫  
+- [x] Children cloning when swapping out inputs ⏫ ✅ 2023-04-24
+- [x] hidden input rendered so form still submits ⏫ ✅ 2023-04-24
+- [x] Remove `aria-checked` (doesn't exist on tree view) ⏫ ✅ 2023-04-24
+- [x] Do not include the `aria-selected` attribute on tree items that are not selectable. ⏫ ✅ 2023-04-24
 
 - [ ] querySelectors working on document level instead of scoped to the tree element
 - [x] ~~`replaceCheckboxWithSpans` more generic name~~

@@ -2,9 +2,10 @@
 share: true
 category: Design/UX/Accessibility
 ---
-
 ## Inbox
 Read, watch or listen.
+- [Liz Jackson // Designing with Disabled People // UX Week 2018 on Vimeo](https://vimeo.com/287329432)
+- [[2022_State_of_Digital_Accessibility_Report.pdf]]
 - [Axe-con](https://www.deque.com/axe-con/archives/)
 - [The difference between keyboard and screen reader navigation](https://tink.uk/the-difference-between-keyboard-and-screen-reader-navigation/)
 - [Browsing with a keyboard](https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/)
@@ -15,19 +16,19 @@ Read, watch or listen.
 - *Move to patterns?*  [Alt Text](https://abilitynet.org.uk/news-blogs/five-golden-rules-compliant-alt-text)
 
 # Standards
-[[UX Research - Accessiblity Standards]]
+[[Accessiblity Standards]]
 # Testing
-[[UX Research - Accessibility Testing]]
+[[Accessibility Testing]]
 # Audit
-[[UX Research - Accessibility Audit]]
+[[Accessibility Audit]]
 # Documentation
-[[UX Research - Accessibility Documentation]]
+[[Accessibility Documentation]]
 # Patterns
-[[UX Research - Accessibility Patterns]]
+[[Accessibility Patterns]]
 # Personas
 [Accessibility Personas](https://alphagov.github.io/accessibility-personas/)
 # Resources & Learning
-[[UX Research - Accessibility Resources & Learning]]
+[[Accessibility Resources & Learning]]
 
 ## Conferences
 - [Web Accessibility in Mind Conference: Home](https://conference.webaim.org/)
