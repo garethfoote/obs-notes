@@ -6,14 +6,14 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Obsidian Notes - Writing in public" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/UX%20Research%20-%20Accessibility%20Patterns/" rel="canonical"/>
-<link href="../UX%20Research%20-%20Accessibility%20Documentation/" rel="prev"/>
-<link href="../UX%20Research%20-%20Accessibility%20Resources%20%26%20Learning/" rel="next"/>
+<link href="https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Resources%20%26%20Learning/" rel="canonical"/>
+<link href="../Accessibility%20Patterns/" rel="prev"/>
+<link href="../Accessibility%20Testing/" rel="next"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
-<meta content="mkdocs-1.4.2, mkdocs-material-9.0.5" name="generator"/>
-<title>UX Research Accessibility Patterns - Notes</title>
-<link href="../../../../assets/stylesheets/main.558e4712.min.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
+<meta content="mkdocs-1.4.3, mkdocs-material-9.1.18" name="generator"/>
+<title>UX Research - Accessibility Resources &amp; Learning - Notes</title>
+<link href="../../../../assets/stylesheets/main.26e3688c.min.css" rel="stylesheet"/>
+<link href="../../../../assets/stylesheets/palette.ecc896b0.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
@@ -32,8 +32,8 @@
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="UX Research   Accessibility Patterns" property="og:title"/>
-<meta content="UX Research   Accessibility Patterns" name="twitter:title"/>
+<meta content="UX Research - Accessibility Resources &amp; Learning" property="og:title"/>
+<meta content="UX Research - Accessibility Resources &amp; Learning" name="twitter:title"/>
 <meta content="Obsidian Notes - Writing in public" name="og:description"/>
 <meta content="Obsidian Notes - Writing in public" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
@@ -46,16 +46,16 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#menus-vs-nav">
+<a class="md-skip" href="#resources">
           Skip to content
         </a>
 </div>
 <div data-md-component="announce">
 </div>
-<header class="md-header md-header--lifted" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
 <a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
@@ -70,7 +70,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              UX Research   Accessibility Patterns
+              UX Research - Accessibility Resources &amp; Learning
             
           </span>
 </div>
@@ -119,10 +119,10 @@
 </div>
 </nav>
 <nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
-<div class="md-tabs__inner md-grid">
+<div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../../Data-Viz/Data%20Visualisation%20-%20References/">
+<a class="md-tabs__link md-tabs__link--active" href="../../../Data-Viz/Data%20Visualisation/">
         Design
       </a>
 </li>
@@ -149,40 +149,35 @@
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
 <a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
-<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" id="__nav_1" type="checkbox"/>
-<label aria-expanded="true" class="md-nav__link" for="__nav_1" tabindex="0">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
           Design
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Design" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_1">
 <span class="md-nav__icon md-icon"></span>
           Design
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_1" id="__nav_1_1" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_1_1" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_1_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_1" id="__nav_1_1_label" tabindex="0">
           Data Viz
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Data Viz" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_1_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_1_1">
 <span class="md-nav__icon md-icon"></span>
           Data Viz
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Data-Viz/Data%20Visualisation%20-%20References/">
-        Data Visualisation   References
-      </a>
-</li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../../../Data-Viz/Data%20Visualisation/">
         Data Visualisation
@@ -192,12 +187,12 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_2" id="__nav_1_2" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_1_2" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_1_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_2" id="__nav_1_2_label" tabindex="0">
           UI
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="UI" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_1_2_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_1_2">
 <span class="md-nav__icon md-icon"></span>
           UI
@@ -212,47 +207,52 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3" id="__nav_1_3" type="checkbox"/>
-<label aria-expanded="true" class="md-nav__link" for="__nav_1_3" tabindex="0">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
           UX
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="UX" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_1_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_1_3">
 <span class="md-nav__icon md-icon"></span>
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_1_3_1" id="__nav_1_3_1" type="checkbox"/>
-<label aria-expanded="true" class="md-nav__link" for="__nav_1_3_1" tabindex="0">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_1_3_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_3_1" id="__nav_1_3_1_label" tabindex="0">
           Accessibility
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Accessibility" class="md-nav" data-md-level="3">
+<nav aria-expanded="true" aria-labelledby="__nav_1_3_1_label" class="md-nav" data-md-level="3">
 <label class="md-nav__title" for="__nav_1_3_1">
 <span class="md-nav__icon md-icon"></span>
           Accessibility
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Audit/">
-        UX Research   Accessibility Audit
+<a class="md-nav__link" href="../Accessibility%20Audit/">
+        Accessibility Audit
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Documentation/">
+<a class="md-nav__link" href="../Accessibility%20Documentation/">
         UX Research - Accessibility Resources &amp; Learning
       </a>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Accessibility%20Patterns/">
+        Accessibility Patterns
+      </a>
+</li>
 <li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
 <label class="md-nav__link md-nav__link--active" for="__toc">
-          UX Research   Accessibility Patterns
+          UX Research - Accessibility Resources &amp; Learning
           <span class="md-nav__icon md-icon"></span>
 </label>
 <a class="md-nav__link md-nav__link--active" href="./">
-        UX Research   Accessibility Patterns
+        UX Research - Accessibility Resources &amp; Learning
       </a>
 <nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
@@ -261,53 +261,81 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#menus-vs-nav">
-    Menus vs Nav
+<a class="md-nav__link" href="#resources">
+    Resources
+  </a>
+<nav aria-label="Resources" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#books">
+    Books
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#hiding-content">
-    Hiding content
+<a class="md-nav__link" href="#podcast-or-yt">
+    Podcast or YT
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#accessible-hamburger-menus">
-    Accessible hamburger menus
+<a class="md-nav__link" href="#arena-list">
+    Are.na list
   </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Resources%20%26%20Learning/">
-        UX Research - Accessibility Resources &amp; Learning
+<a class="md-nav__link" href="#learning">
+    Learning
+  </a>
+<nav aria-label="Learning" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#he-programs">
+    HE Programs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#online-courses">
+    Online courses
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industry-certification">
+    Industry Certification
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Accessibility%20Testing/">
+        Accessibility Testing
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility%20Testing/">
-        UX Research   Accessibility Testing
+<a class="md-nav__link" href="../Accessibility/">
+        Accessibility
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessibility/">
-        UX Research   Accessibility
-      </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../UX%20Research%20-%20Accessiblity%20Standards/">
-        UX Research   Accessiblity Standards
+<a class="md-nav__link" href="../Accessiblity%20Standards/">
+        Accessiblity Standards
       </a>
 </li>
 </ul>
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_1_3_2" id="__nav_1_3_2" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_1_3_2" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_1_3_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_1_3_2" id="__nav_1_3_2_label" tabindex="0">
           Patterns
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Patterns" class="md-nav" data-md-level="3">
+<nav aria-expanded="false" aria-labelledby="__nav_1_3_2_label" class="md-nav" data-md-level="3">
 <label class="md-nav__title" for="__nav_1_3_2">
 <span class="md-nav__icon md-icon"></span>
           Patterns
@@ -368,24 +396,24 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_2" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
           Research
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Research" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_2">
 <span class="md-nav__icon md-icon"></span>
           Research
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_2_1" id="__nav_2_1" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_2_1" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
           Anthropocene
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Anthropocene" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_2_1">
 <span class="md-nav__icon md-icon"></span>
           Anthropocene
@@ -403,12 +431,12 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_3" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
           TNA
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="TNA" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
           TNA
@@ -425,12 +453,12 @@
       </a>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_3" id="__nav_3_3" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_3_3" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
           Process
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Process" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_3">
 <span class="md-nav__icon md-icon"></span>
           Process
@@ -450,12 +478,12 @@
 </nav>
 </li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" data-md-toggle="__nav_3_4" id="__nav_3_4" type="checkbox"/>
-<label aria-expanded="false" class="md-nav__link" for="__nav_3_4" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
           Sprints
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-label="Sprints" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_3_4_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_4">
 <span class="md-nav__icon md-icon"></span>
           Sprints
@@ -487,19 +515,52 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#menus-vs-nav">
-    Menus vs Nav
+<a class="md-nav__link" href="#resources">
+    Resources
+  </a>
+<nav aria-label="Resources" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#books">
+    Books
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#hiding-content">
-    Hiding content
+<a class="md-nav__link" href="#podcast-or-yt">
+    Podcast or YT
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#accessible-hamburger-menus">
-    Accessible hamburger menus
+<a class="md-nav__link" href="#arena-list">
+    Are.na list
   </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#learning">
+    Learning
+  </a>
+<nav aria-label="Learning" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#he-programs">
+    HE Programs
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#online-courses">
+    Online courses
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#industry-certification">
+    Industry Certification
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -508,31 +569,49 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>UX Research   Accessibility Patterns</h1>
-<ul>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Focus/" title="UX Pattern - Focus">UX Pattern - Focus</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Tree%20view/" title="UX Pattern - Tree view">UX Pattern - Tree view</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/" title="UX Pattern - Autocomplete select for multiple files">UX Pattern - Autocomplete select for multiple files</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20SVGs/" title="UX Pattern - SVGs">UX Pattern - SVGs</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Hint%20text/" title="UX Pattern - Hint text">UX Pattern - Hint text</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Buttons%20%26%20Links/" title="UX Pattern - Buttons &amp; Links">UX Pattern - Buttons &amp; Links</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Tables/" title="UX Pattern - Tables">UX Pattern - Tables</a></li>
-<li><a href="../../Patterns/UX%20Pattern%20-%20Designing%20Mobile%20Tables/" title="UX Pattern - Designing Mobile Tables">UX Pattern - Designing Mobile Tables</a></li>
-<li><a href="../../../UX%20Pattern%20-%20Dynamic%20search%20results" title="UX Pattern - Dynamic search results">UX Pattern - Dynamic search results</a></li>
+<h1>UX Research - Accessibility Resources &amp; Learning</h1>
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
+<h3 id="books">Books<a class="headerlink" href="#books" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://abookapart.com/products/accessibility-for-everyone">Accessibility for Everyone</a> by Laura Kalbag <strong class="hash" id="read">read</strong> <strong class="hash" id="book">book</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://reginegilbert.com/inclusive-design-book">Inclusive Design for a Digital World - Designing with Accessibility in Mind</a>  by Regine Gilbert <strong class="hash" id="read">read</strong> <strong class="hash" id="book">book</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.accessibility.uxdesign.cc/">Giving a damn about accessibility</a> By Sheri Byrne-Haber, CPACC. <strong class="hash" id="read">read</strong> <strong class="hash" id="book">book</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> Agile Accessibility Handbook</li>
 </ul>
-<h3 id="menus-vs-nav">Menus vs Nav<a class="headerlink" href="#menus-vs-nav" title="Permanent link">¶</a></h3>
-<p>Menus in ARIA are used to replicate native desktop behaviour<br/>
-<a href="https://www.w3.org/WAI/GL/wiki/Using_ARIA_menus">https://www.w3.org/WAI/GL/wiki/Using_ARIA_menus</a></p>
-<p>Navs are for site wide content, not single page.</p>
-<p>Don’t Use ARIA Menu Roles for Site Nav<br/>
-<a href="https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html">https://adrianroselli.com/2017/10/dont-use-aria-menu-roles-for-site-nav.html</a></p>
-<h3 id="hiding-content">Hiding content<a class="headerlink" href="#hiding-content" title="Permanent link">¶</a></h3>
-<p><a href="https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/">https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/</a><br/>
-<a href="https://gomakethings.com/hidden-content-for-better-a11y/">https://gomakethings.com/hidden-content-for-better-a11y/</a></p>
-<h3 id="accessible-hamburger-menus">Accessible hamburger menus<a class="headerlink" href="#accessible-hamburger-menus" title="Permanent link">¶</a></h3>
-<p><a href="https://knowbility.org/blog/2020/accessible-slide-menus">https://knowbility.org/blog/2020/accessible-slide-menus</a><br/>
-<a href="https://www.impressivewebs.com/accessible-keyboard-friendly-hamburger-menu-slide-out-navigation/">https://www.impressivewebs.com/accessible-keyboard-friendly-hamburger-menu-slide-out-navigation/</a><br/>
-<a href="http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu">http://www.ashleysheridan.co.uk/blog/Making+an+Accessible+Hamburger+Menu</a></p>
+<h3 id="podcast-or-yt">Podcast or YT<a class="headerlink" href="#podcast-or-yt" title="Permanent link">¶</a></h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.youtube.com/channel/UCAUiv64ScbHSJYDrkqMZ_ww/videos">Digital Accessibility</a> including <a href="https://www.youtube.com/watch?v=WalORGTANxA">Reginé Gilbert talk</a> <strong class="hash" id="playlist">playlist</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.youtube.com/c/AxschatCommunity/videos">AXSChat</a> inlcuding <a href="https://www.youtube.com/watch?v=3rbYvyvpaJ0">Stefanie Walters talk</a> <strong class="hash" id="playlist">playlist</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.youtube.com/watch?v=PkglIyugbHM">Reginé Gilbert - Accessibility &amp; Sustainability</a> <strong class="hash" id="playlist">playlist</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.youtube.com/c/AccessibilityTalks/videos">Accessibility Talks</a></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> [The Fatal Flaw of Overlays - Shell Little (A11yTalks - July 2021)](<a href="https://www.youtube.com/watch?v=k6VmSjEIiks">https://www.youtube.com/watch?v=k6VmSjEIiks</a> <strong class="hash" id="playlist">playlist</strong></li>
+<li class="task-list-item"><label class="task-list-control"><input disabled="" type="checkbox"><span class="task-list-indicator"></span></input></label> <a href="https://www.youtube.com/watch?v=dQVrfS74xyM">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</a> <strong class="hash" id="playlist">playlist</strong></li>
+</ul>
+<h3 id="arena-list">Are.na list<a class="headerlink" href="#arena-list" title="Permanent link">¶</a></h3>
+<iframe height="590" src="https://www.are.na/gareth-foote/accessibility-qy6ux9v1by8/embed" style="border:none;" title="Gareth Foote’s Are.na channel 'Accessibility'" width="100%"></iframe>
+<h2 id="learning">Learning<a class="headerlink" href="#learning" title="Permanent link">¶</a></h2>
+<h3 id="he-programs">HE Programs<a class="headerlink" href="#he-programs" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://www.disabilityinnovation.com/projects/msc-disability-design-and-innovation-at-ucl">MSc Disability, Design and Innovation at UCL - Global Disability Innovation Hub</a><ul>
+<li>UCL is also the home to the <a href="https://www.disabilityinnovation.com/">disability innovation hub</a></li>
+</ul>
+</li>
+<li><a href="https://www.dundee.ac.uk/postgraduate/educational-assistive-technology">Educational Assistive Technology MSc | University of Dundee</a></li>
+</ul>
+<h3 id="online-courses">Online courses<a class="headerlink" href="#online-courses" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://www.w3.org/WAI/courses/foundations-course/#who-the-course-is-for">Digital Accessibility Foundations - Free Online Course | Web Accessibility Initiative (WAI) | W3C</a></li>
+<li><a href="https://www.udacity.com/course/web-accessibility--ud891">Web Accessibility | What is Web Accessibility? | Udacity Free Courses</a></li>
+<li><a href="https://www.edx.org/course/web-accessibility-introduction">Introduction to Web Accessibility | edX</a></li>
+<li><a href="https://web.dev/learn/accessibility/">Learn Accessibility</a></li>
+<li><a href="https://frontendmasters.com/courses/javascript-accessibility/">Making Your JS Web Apps More Accessible | Frontend Masters</a></li>
+</ul>
+<h3 id="industry-certification">Industry Certification<a class="headerlink" href="#industry-certification" title="Permanent link">¶</a></h3>
+<ul>
+<li><a href="https://www.accessibilityassociation.org/s/wascertification">AccessibilityAssociation - Web Accessibility Specialist Certification (WAS)</a></li>
+<li><a href="https://www.accessibilityassociation.org/s/certified-professional-web-accessibility">AccessibilityAssociation Certified Professional Web Accessibility (CPWA)</a></li>
+<li><a href="https://www.accessibilityassociation.org/s/certified-professional">AccessibilityAssociation - Certified Professional in Accessibility Core Competencies (CPACC)</a></li>
+</ul>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
 <hr/>
@@ -542,7 +621,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 19, 2023</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 17, 2023</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -582,10 +661,10 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 </article>
 </div>
 </div>
-<a class="md-top md-icon" data-md-component="top" hidden="" href="#">
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
             Back to top
-          </a>
+          </button>
 </main>
 <footer class="md-footer">
 <div class="md-footer-meta md-typeset">
@@ -599,8 +678,8 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../../../../assets/javascripts/bundle.51d95adb.min.js"></script>
+<script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../../assets/javascripts/bundle.220ee61c.min.js"></script>
 <script src="../../../../assets/js/mathjax.js"></script>
 <script src="../../../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
