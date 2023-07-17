@@ -17,10 +17,10 @@ Reading a lot about the accessibility of the [[UX Pattern - Tree view|🌳tree v
 ## UX Research
 - [[UX Pattern - Tree view]]
 - [[UX Pattern - Autocomplete select for multiple files]]
-- [[UX Research - Accessibility]]
+- [[500-Research-Learning/Accessibility/Accessibility]]
 
 ## Accessiblity & Testing
-- [[UX Research - Accessiblity Standards]]
+- [[Accessiblity Standards]]
 
 ## Sprints & Tickets
 - [[TDR-2397 Tree View]]
