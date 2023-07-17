@@ -3,6 +3,7 @@ share: true
 category: Design/UX/Patterns
 ---
 
+## Examples
 [MDN Web Docs - ARIA: tree role](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/tree_role) 
 > An example of a `tree` is a file system selection user interface: a tree view displaying folders and files. Folder items can be expanded to reveal the contents of the folder — which may be files, folders, or both — and collapsed, hiding its contents.
 
@@ -24,8 +25,12 @@ Often treeviews are used for complex nested navigation but this is not recommend
 
 [PatternFly Design System (from Red Hat) - Design Guidelines for tree view](https://www.patternfly.org/2021.16/components/tree-view/design-guidelines)
 
-#### Other Links
+## Other Links
 [(Not so) Simple ARIA Tree Views and Screen Readers | Articles | Accessible Culture](http://accessibleculture.org/articles/2013/02/not-so-simple-aria-tree-views-and-screen-readers/) (2013)
 [Bootstrap Treeview - examples & tutorial](https://mdbootstrap.com/docs/standard/plugins/tree-view/) 
 
 [Clarity Design System - Documentation - Tree View](https://clarity.design/documentation/tree-view#checkbox-tree)
+
+## Specific issues with assisstive technology
+
+[Accessibility WTF: Voiceover on Mac announcing a list tree as a table? | Christian Heilmann](https://christianheilmann.com/2021/07/28/accessibility-wtf-voiceover-on-mac-announcing-a-list-tree-as-a-table/)
