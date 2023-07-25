@@ -1,10 +1,10 @@
 ---
 share: true
-category: Design/UX/Patterns
+category: Notes/Interaction Design
+title: Tables
 ---
 
-> [!NOTE] Incomplete
-> Needs organising into sections :
+> [!NOTE] Needs organising into sections:
 > - accessible tables
 > - JS expanding 
 > - Othe best practices

@@ -1,6 +1,7 @@
 ---
 share: true
-category: Design/UX/Patterns
+category: Notes/Interaction Design
+title: Focus
 ---
 
 A great little Halloween game using `:focus`.

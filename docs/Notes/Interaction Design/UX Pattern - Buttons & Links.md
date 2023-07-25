@@ -1,7 +1,7 @@
 ---
 share: true
-category: Design/UX/Patterns
-title: UX Patterns - Buttons & Links
+category: Notes/Interaction Design
+title: Buttons & Links
 ---
 # Links as buttons / Buttons as links
 

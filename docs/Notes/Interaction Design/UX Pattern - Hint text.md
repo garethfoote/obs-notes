@@ -1,6 +1,7 @@
 ---
 share: true
-category: Design/UX/Patterns
+category: Notes/Interaction Design
+title: Hint text (GDS)
 ---
 
 [Question pages – GOV.UK Design System](https://design-system.service.gov.uk/patterns/question-pages/#asking-complex-questions-without-using-hint-text)
