@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://garethfoote.github.io/obs-notes/Accessibility/Accessibility%20Audit/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://garethfoote.github.io/obs-notes/Accessibility/Resources%20%26%20Training/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/Data-Viz/Data%20Visualisation/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Design/Data%20Visualisation/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Design/UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/</loc>
-         <lastmod>2023-07-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Audit/</loc>
-         <lastmod>2023-07-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Documentation/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
