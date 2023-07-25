@@ -1,6 +1,6 @@
 ---
 share: true
-category: Design/Data-Viz
+category: Design
 ---
 
 

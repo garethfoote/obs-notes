@@ -1,6 +1,6 @@
 ---
 share: true
-category: Design/UX/Accessibility
+category: Accessibility
 ---
 
 - [A Definitive Guide On How To Perform A Web Accessibility Audit • DigitalA11Y](https://www.digitala11y.com/a-definitive-guide-on-how-to-perform-a-web-accessibility-audit/)
