@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://garethfoote.github.io/obs-notes/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://garethfoote.github.io/obs-notes/Accessibility/Accessibility%20Audit/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
@@ -21,11 +26,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Resources%20%26%20Learning/</loc>
-         <lastmod>2023-07-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Testing/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
@@ -36,57 +36,77 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Add%20another/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Buttons%20%26%20Links/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Conditional%20Reveal/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Buttons%20%26%20Links/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Designing%20Mobile%20Tables/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Conditional%20Reveal/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Focus/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Designing%20Mobile%20Tables/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Hint%20text/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Disabled%20button/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20SVGs/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Focus/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Tables/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Hint%20text/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://garethfoote.github.io/obs-notes/Design/UX/Patterns/UX%20Pattern%20-%20Tree%20view/</loc>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20MFA%20%26%20Authentication/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20SVGs/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Search/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Tables/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Tree%20view/</loc>
+         <lastmod>2023-07-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Patterns%20-%20Pagination/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://garethfoote.github.io/obs-notes/Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/</loc>
-         <lastmod>2023-07-25</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://garethfoote.github.io/obs-notes/The%20National%20Archives/Process/Design%20Documentation%20%26%20Change%20Tracking/</loc>
          <lastmod>2023-07-25</lastmod>
          <changefreq>daily</changefreq>
     </url>

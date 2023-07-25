@@ -6,34 +6,34 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Obsidian Notes - Writing in public" name="description"/>
-<link href="https://garethfoote.github.io/obs-notes/Design/UX/Accessibility/Accessibility%20Testing/" rel="canonical"/>
-<link href="../../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/" rel="prev"/>
-<link href="../Accessiblity%20Standards/" rel="next"/>
+<link href="https://garethfoote.github.io/obs-notes/Notes/Interaction%20Design/UX%20Pattern%20-%20Search/" rel="canonical"/>
+<link href="../UX%20Pattern%20-%20SVGs/" rel="prev"/>
+<link href="../UX%20Pattern%20-%20Tables/" rel="next"/>
 <link href="https://avatars.githubusercontent.com/u/65011256?s=280&amp;v=4" rel="icon"/>
 <meta content="mkdocs-1.4.3, mkdocs-material-9.1.19" name="generator"/>
-<title>Accessibility Testing - Notes</title>
-<link href="../../../../assets/stylesheets/main.eebd395e.min.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/palette.ecc896b0.min.css" rel="stylesheet"/>
+<title>Search - Notes</title>
+<link href="../../../assets/stylesheets/main.eebd395e.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.ecc896b0.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
-<link href="../../../../assets/css/template/blog.css" rel="stylesheet"/>
-<link href="../../../../assets/css/template/grid.css" rel="stylesheet"/>
-<link href="../../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
-<link href="../../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
-<link href="../../../../assets/css/template/utils.css" rel="stylesheet"/>
-<link href="../../../../assets/css/admonition.css" rel="stylesheet"/>
-<link href="../../../../assets/css/custom_attributes.css" rel="stylesheet"/>
-<link href="../../../../assets/css/customization.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../../assets/css/template/blog.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/grid.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/img-grids-float.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/tooltipster.bundle.min.css" rel="stylesheet"/>
+<link href="../../../assets/css/template/utils.css" rel="stylesheet"/>
+<link href="../../../assets/css/admonition.css" rel="stylesheet"/>
+<link href="../../../assets/css/custom_attributes.css" rel="stylesheet"/>
+<link href="../../../assets/css/customization.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <link href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" rel="stylesheet">
 <link href="https://unpkg.com/tippy.js@6/themes/translucent.css" rel="stylesheet">
 <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" referrerpolicy="no-referrer" rel="stylesheet">
-<meta content="Accessibility Testing" property="og:title"/>
-<meta content="Accessibility Testing" name="twitter:title"/>
+<meta content="Search" property="og:title"/>
+<meta content="Search" name="twitter:title"/>
 <meta content="Obsidian Notes - Writing in public" name="og:description"/>
 <meta content="Obsidian Notes - Writing in public" name="twitter:description"/>
 <meta content="summary_large_image" name="twitter:card"/>
@@ -46,7 +46,7 @@
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#evaluation-tools">
+<a class="md-skip" href="#dynamic-search-results">
           Skip to content
         </a>
 </div>
@@ -54,7 +54,7 @@
 </div>
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
 <nav aria-label="Header" class="md-header__inner md-grid">
-<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
+<a aria-label="Notes" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Notes">
 <svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -70,7 +70,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Accessibility Testing
+              Search
             
           </span>
 </div>
@@ -122,27 +122,27 @@
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../..">
+<a class="md-tabs__link" href="../../..">
       Home
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../Accessibility/Accessibility%20Audit/">
+<a class="md-tabs__link" href="../../../Accessibility/Accessibility%20Audit/">
         Accessibility
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../../Data%20Visualisation/">
+<a class="md-tabs__link" href="../../../Design/Data%20Visualisation/">
         Design
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Add%20another/">
+<a class="md-tabs__link md-tabs__link--active" href="../UX%20Pattern%20-%20Add%20another/">
         Notes
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-tabs__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Research
       </a>
 </li>
@@ -158,14 +158,14 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../../.." title="Notes">
+<a aria-label="Notes" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Notes">
 <svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="m453.3 19.3 39.4 39.4c25 25 25 65.5 0 90.5l-52.1 52.1-1-1-16-16-96-96-17-17 52.1-52.1c25-25 65.5-25 90.5 0zM241 114.9c-9.4-9.4-24.6-9.4-33.9 0L105 217c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L173.1 81c28.1-28.1 73.7-28.1 101.8 0L288 94.1l17 17 96 96 16 16 1 1-17 17-171.5 171.4c-48 48-109.2 80.8-175.8 94.1l-25 5c-7.9 1.6-16-.9-21.7-6.6s-8.1-13.8-6.6-21.7l5-25c13.3-66.6 46.1-127.8 94.1-175.8L254.1 128 241 114.9z"></path></svg>
 </a>
     Notes
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../..">
+<a class="md-nav__link" href="../../..">
         Home
       </a>
 </li>
@@ -182,32 +182,32 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Accessibility/Accessibility%20Audit/">
+<a class="md-nav__link" href="../../../Accessibility/Accessibility%20Audit/">
         Accessibility Audit
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Accessibility/Resources%20%26%20Training/">
+<a class="md-nav__link" href="../../../Accessibility/Resources%20%26%20Training/">
         Resources
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
           Design
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
           Design
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../Data%20Visualisation/">
+<a class="md-nav__link" href="../../../Design/Data%20Visualisation/">
         Data Visualisation
       </a>
 </li>
@@ -224,119 +224,44 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
+<a class="md-nav__link" href="../../../Design/UI/Design%20Resources%2C%20Repos%20%26%20Inspiration/">
         Design Resources, Repos &amp; Inspiration
       </a>
 </li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
           UX
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_3_3">
 <span class="md-nav__icon md-icon"></span>
           UX
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_3_3_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3_3_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3_3_1" id="__nav_3_3_1_label" tabindex="0">
           Accessibility
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_3_3_1_label" class="md-nav" data-md-level="3">
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_1_label" class="md-nav" data-md-level="3">
 <label class="md-nav__title" for="__nav_3_3_1">
 <span class="md-nav__icon md-icon"></span>
           Accessibility
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Accessibility Testing
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Design/UX/Accessibility/Accessibility%20Testing/">
         Accessibility Testing
       </a>
-<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#evaluation-tools">
-    Evaluation Tools
-  </a>
-<nav aria-label="Evaluation Tools" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#browser-extensions">
-    Browser extensions
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#guidance-for-testing-with-assistive-technology">
-    Guidance for testing with Assistive Technology
-  </a>
-<nav aria-label="Guidance for testing with Assistive Technology" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#most-commonly-used-assistive-technology">
-    Most commonly used assistive technology
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-screen-readers">
-    How to use screen readers
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#resources">
-    Resources
-  </a>
-<nav aria-label="Resources" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-service-manual">
-    Gov Service Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-accessibility-blog">
-    Gov Accessibility Blog
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hmrc-accessibility-manual">
-    HMRC Accessibility Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bbc-news-accessibility">
-    BBC News Accessibility
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../Accessiblity%20Standards/">
+<a class="md-nav__link" href="../../../Design/UX/Accessibility/Accessiblity%20Standards/">
         Accessiblity Standards
       </a>
 </li>
@@ -349,97 +274,125 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
           Notes
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
           Notes
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_1" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
 <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
           Interaction Design
           <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<nav aria-expanded="true" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
 <label class="md-nav__title" for="__nav_4_1">
 <span class="md-nav__icon md-icon"></span>
           Interaction Design
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Add%20another/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Add%20another/">
         Add another
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Autocomplete%20select%20for%20multiple%20files/">
         Autocomplete select for multiple files
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Buttons%20%26%20Links/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Buttons%20%26%20Links/">
         Buttons &amp; Links
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Conditional%20Reveal/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Conditional%20Reveal/">
         Conditional Reveal
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Designing%20Mobile%20Tables/">
         Mobile Tables
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Disabled%20button/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Disabled%20button/">
         Disabled button
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Focus/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Focus/">
         Focus
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Hint%20text/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Hint%20text/">
         Hint text (GDS)
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20MFA%20%26%20Authentication/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20MFA%20%26%20Authentication/">
         MFA &amp; Authentication
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20SVGs/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20SVGs/">
         SVGs
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Search/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Search
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
         Search
       </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dynamic-search-results">
+    Dynamic search results
+  </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Tables/">
+<a class="md-nav__link" href="#accesible-form-element">
+    Accesible form element
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#other">
+    Other
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Tables/">
         Tables
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Pattern%20-%20Tree%20view/">
+<a class="md-nav__link" href="../UX%20Pattern%20-%20Tree%20view/">
         Tables
       </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Notes/Interaction%20Design/UX%20Patterns%20-%20Pagination/">
+<a class="md-nav__link" href="../UX%20Patterns%20-%20Pagination/">
         Pagination
       </a>
 </li>
@@ -474,7 +427,7 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
+<a class="md-nav__link" href="../../../Research/Anthropocene/Terraforming%20for%20Urbanists%20-%20Heise/">
         Terraforming for Urbanists   Heise
       </a>
 </li>
@@ -499,66 +452,19 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="#evaluation-tools">
-    Evaluation Tools
-  </a>
-<nav aria-label="Evaluation Tools" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#browser-extensions">
-    Browser extensions
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#guidance-for-testing-with-assistive-technology">
-    Guidance for testing with Assistive Technology
-  </a>
-<nav aria-label="Guidance for testing with Assistive Technology" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#most-commonly-used-assistive-technology">
-    Most commonly used assistive technology
+<a class="md-nav__link" href="#dynamic-search-results">
+    Dynamic search results
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#how-to-use-screen-readers">
-    How to use screen readers
-  </a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#resources">
-    Resources
-  </a>
-<nav aria-label="Resources" class="md-nav">
-<ul class="md-nav__list">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#gov-service-manual">
-    Gov Service Manual
+<a class="md-nav__link" href="#accesible-form-element">
+    Accesible form element
   </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="#gov-accessibility-blog">
-    Gov Accessibility Blog
+<a class="md-nav__link" href="#other">
+    Other
   </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#hmrc-accessibility-manual">
-    HMRC Accessibility Manual
-  </a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="#bbc-news-accessibility">
-    BBC News Accessibility
-  </a>
-</li>
-</ul>
-</nav>
 </li>
 </ul>
 </nav>
@@ -567,64 +473,21 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1>Accessibility Testing</h1>
+<h1>Search</h1>
+<h3 id="dynamic-search-results">Dynamic search results<a class="headerlink" href="#dynamic-search-results" title="Permanent link">¶</a></h3>
+<p>More commonly used for filtering short lists already rendered on page.</p>
+<p>Great article: <a href="https://www.scottohara.me/blog/2022/02/05/dynamic-results.html">Considering dynamic search results and content | scottohara.me</a><br/>
+    Mentions this example: <a href="https://a11ysupport.io/">Accessibility Support</a></p>
+<p>A JS ‘how to’: <a href="https://css-tricks.com/in-page-filtered-search-with-vanilla-javascript/">In-Page Filtered Search With Vanilla JavaScript | CSS-Tricks - CSS-Tricks</a></p>
+<h3 id="accesible-form-element">Accesible form element<a class="headerlink" href="#accesible-form-element" title="Permanent link">¶</a></h3>
+<p>How to make an accessible search form (not JS filtering):<br/>
+<a href="https://www.a11ymatters.com/pattern/accessible-search/">Accessibility Matters - Search Form</a></p>
+<h3 id="other">Other<a class="headerlink" href="#other" title="Permanent link">¶</a></h3>
 <ul>
-<li><a href="https://jessbudd.com/blog/screen-reader-usability-testing-observations/">5 takeaways from screen reader usability interviews - Jess Budd</a></li>
-</ul>
-<h3 id="evaluation-tools">Evaluation Tools<a class="headerlink" href="#evaluation-tools" title="Permanent link">¶</a></h3>
-<h4 id="browser-extensions">Browser extensions<a class="headerlink" href="#browser-extensions" title="Permanent link">¶</a></h4>
-<ul>
-<li><a href="https://wave.webaim.org/">WAVE Web Accessibility Evaluation Tools</a></li>
-<li><a href="https://accessibilityinsights.io/docs/web/overview/">Accessibility Insights for Web</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd">axe DevTools - Web Accessibility Testing</a></li>
-</ul>
-<h3 id="guidance-for-testing-with-assistive-technology">Guidance for testing with Assistive Technology<a class="headerlink" href="#guidance-for-testing-with-assistive-technology" title="Permanent link">¶</a></h3>
-<p>Gov service manual article on <a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility">testing for accessibility</a>.</p>
-<h4 id="most-commonly-used-assistive-technology">Most commonly used assistive technology<a class="headerlink" href="#most-commonly-used-assistive-technology" title="Permanent link">¶</a></h4>
-<ul>
-<li><a href="https://webaim.org/projects/screenreadersurvey9/">WebAIM: Screen Reader User Survey <strong class="hash" id="9">9</strong> Results</a></li>
-</ul>
-<h4 id="how-to-use-screen-readers">How to use screen readers<a class="headerlink" href="#how-to-use-screen-readers" title="Permanent link">¶</a></h4>
-<ul>
-<li>How to use <a href="https://webaim.org/articles/voiceover/">VoiceOver for MacOS and iOS</a> on WebAIM</li>
-<li>
-<p>Introduces the basics of screen reader technologies (JAWS, NVDA &amp; VoiceOver) + tips on how to test a service/site with them. <br/>
-<a href="https://accessibility-training.herokuapp.com/">https://accessibility-training.herokuapp.com/</a></p>
-</li>
-<li>
-<p>BBC News Accessibility </p>
-<ul>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/nvda-windows.html">NVDA for Windows testing steps</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/jaws-windows.html">JAWS for Windows testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/dragon-windows.html">Dragon for Windows testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-mac.html">VoiceOver for Mac testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/voiceover-ios.html">VoiceOver on iPhone testing steps - Accessibility, Your Team and You</a></li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/assistive-technology/testing-steps/talkback-android.html">TalkBack on Android testing steps - Accessibility, Your Team and You</a></li>
-</ul>
-</li>
-</ul>
-<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">¶</a></h2>
-<h3 id="gov-service-manual">Gov Service Manual<a class="headerlink" href="#gov-service-manual" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service">Accessibility and assisted digital</a><ul>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility">Testing for accessibility</a></li>
-<li><a href="https://www.gov.uk/service-manual/helping-people-to-use-your-service/getting-an-accessibility-audit">Getting an accessibility audit</a> </li>
-</ul>
-</li>
-<li><a href="https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps">Understanding accessibility requirements for public sector bodies</a> </li>
-</ul>
-<h3 id="gov-accessibility-blog">Gov Accessibility Blog<a class="headerlink" href="#gov-accessibility-blog" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/">Assistive technology tools you can test with at no cost - Accessibility in government </a></li>
-</ul>
-<h3 id="hmrc-accessibility-manual">HMRC Accessibility Manual<a class="headerlink" href="#hmrc-accessibility-manual" title="Permanent link">¶</a></h3>
-<p>Introduces the basics of screen reader technologies (JAWS, NVDA &amp; VoiceOver) + tips on how to test a service/site with them.<br/>
-<a href="https://accessibility-training.herokuapp.com/">https://accessibility-training.herokuapp.com/</a><br/>
-(username and password in Enpass)</p>
-<h3 id="bbc-news-accessibility">BBC News Accessibility<a class="headerlink" href="#bbc-news-accessibility" title="Permanent link">¶</a></h3>
-<ul>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/">Accessibility, News and You</a> - Homepage</li>
-<li><a href="https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html">Accessibility Design Review</a></li>
+<li><a href="https://uxplanet.org/search-interface-20-things-to-consider-4b1466e98881">Search interface: 20 things to consider | by Nadya Tsech | UX Planet</a></li>
+<li><a href="https://www.nngroup.com/articles/search-visible-and-simple/">Search: Visible and Simple</a></li>
+<li><a href="https://medium.com/@reddexperience/ux-design-patterns-6-search-sort-and-filter-sorted-913a3ce1e160">UX Design Patterns <strong class="hash" id="6">6</strong>: Search, Sort and Filter Sorted | by Redd Experience Design | Medium</a></li>
+<li><a href="https://trepo.tuni.fi/handle/10024/104758">Improving the user experience of document search : case M-Files - Trepo</a></li>
 </ul>
 <!-- taken from 
 https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-file.html -->
@@ -635,7 +498,7 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
         
         
             Last update:
-            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 17, 2023</span>
+            <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 25, 2023</span>
 <!-- mkdocs-git-revision-date-plugin -->
 </small>
 </div>
@@ -692,12 +555,12 @@ https://github.com/squidfunk/mkdocs-material/blob/master/src/partials/source-fil
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-<script src="../../../../assets/javascripts/bundle.220ee61c.min.js"></script>
-<script src="../../../../assets/js/mathjax.js"></script>
-<script src="../../../../assets/js/utils.js"></script>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.top", "navigation.tabs", "navigation.tabs.sticky", "navigation.expand", "search.suggest", "search.highlight"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+<script src="../../../assets/js/mathjax.js"></script>
+<script src="../../../assets/js/utils.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script src="../../../../assets/js/tooltipster.bundle.js"></script>
+<script src="../../../assets/js/tooltipster.bundle.js"></script>
 </body>
 </html>
