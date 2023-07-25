@@ -1,14 +1,13 @@
 site_name: Notes
 site_description: Obsidian Notes - Writing in public
 site_url: https://garethfoote.github.io/obs-notes
-
+nav:
+    - Blog:
+        - blog/index.md 
 theme:
     name: 'material'
     icon: 
         logo: fontawesome/solid/pen-clip
-    nav:
-      - Blog:
-        - blog/index.md 
     favicon: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
     custom_dir: overrides
     font:
