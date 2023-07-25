@@ -81,12 +81,12 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid
 plugins:
-  - blog
   - search
   - ezlinks:
         wikilinks: true
   - mermaid2
   - awesome-pages
+  - blog
   - embed_file:
       callouts: true
       custom-attributes: 'assets/css/custom_attributes.css'
