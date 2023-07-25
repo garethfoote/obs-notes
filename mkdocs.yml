@@ -6,6 +6,9 @@ theme:
     name: 'material'
     icon: 
         logo: fontawesome/solid/pen-clip
+    nav:
+      - Blog:
+        - blog/index.md 
     favicon: https://avatars.githubusercontent.com/u/65011256?s=280&v=4
     custom_dir: overrides
     font:
